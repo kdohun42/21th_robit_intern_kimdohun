@@ -2,11 +2,12 @@
 #include <iostream>
 #include <random>
 #include <cmath>
-#include "HW3.hpp"
+#include "HW2.hpp"
 using namespace std;
  
 vector<PointXY> p;   // 전역 변수의 실제 정의 (헤더에는 extern 선언만 있었음)
  
+// 두 점 사이의 거리 
 double PointDistAnalyzer::getDistance(PointXY a, PointXY b) {
     double dx = a.x - b.x;
     double dy = a.y - b.y;
@@ -40,13 +41,11 @@ void PointDistAnalyzer::analyze(int num) {
 }
  
 void PointDistAnalyzer::printResult() {
-    cout << "최대 거리 = " << maxDist << endl;
-    cout << "  두 점: (" << maxPoint1.x << ", " << maxPoint1.y << ") - ("
-         << maxPoint2.x << ", " << maxPoint2.y << ")" << endl;
+    cout << "최대 거리 = " << maxDist;
+    cout << "  점1 (" << maxPoint1.x << ", " << maxPoint1.y << "), 점2(" << maxPoint2.x << ", " << maxPoint2.y << ")" << endl;
  
-    cout << "최소 거리 = " << minDist << endl;
-    cout << "  두 점: (" << minPoint1.x << ", " << minPoint1.y << ") - ("
-         << minPoint2.x << ", " << minPoint2.y << ")" << endl;
+    cout << "최소 거리 = " << minDist;
+    cout << " 점1 (" << minPoint1.x << ", " << minPoint1.y << "), 점2(" << minPoint2.x << ", " << minPoint2.y << ")" << endl;
 }
 
 int main() {
@@ -56,13 +55,14 @@ int main() {
     cout << "점의 개수를 입력하세요:";
     cin >> point_count;
 
-    p.resize(point_count);
+    p.resize(point_count); // 배열 크기 설정
 
     cout << "좌표의 범위(최솟값)입력하세요:";
     cin >> point_min;
     cout << "좌표의 범위(최댓값) 입력하세요:";
     cin >> point_max;
 
+    // 난수 생성 LLM 도움 받음
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> dis(point_min, point_max);

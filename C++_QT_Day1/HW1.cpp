@@ -5,28 +5,28 @@ using namespace std;
  
 void cl::arraySize(int n){
     num = n;
-    array.resize(num);
+    array.resize(num); // 배열 크기 설정
 }
  
 void cl::min_max(){
  
-    smallest = array[0];
+    smallest = array[0]; 
     largest = array[0];
  
     for(int i = 0; i < num; i++){
-        smallest = min(smallest, array[i]);
-        largest = max(largest, array[i]);
+        smallest = min(smallest, array[i]); // 최솟값
+        largest = max(largest, array[i]); // 최댓값
     }
 }
  
-void cl::sum_make(){
-    for(int i = 0; i < num; i++){
+void cl::sum_make(){ // 합계
+    for(int i = 0; i < num; i++){ 
         sum += array[i];
     }
 }
  
 void cl::avg_make(){
-    avg = (double)sum / num;
+    avg = (double)sum / num; // 평균
 }
 
 int main(){
