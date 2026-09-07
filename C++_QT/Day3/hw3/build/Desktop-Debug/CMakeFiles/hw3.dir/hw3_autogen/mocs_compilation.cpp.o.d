@@ -1,7 +1,7 @@
 CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.o: \
  /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/6YEA5652QU/moc_mainwindow.cpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -116,7 +116,7 @@ CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/EWIEGA46WW/../../../../mainwindow.h \
+ /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/6YEA5652QU/../../../../include/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

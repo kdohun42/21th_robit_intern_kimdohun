@@ -1,18 +1,18 @@
 hw2_autogen/timestamp: \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/CMakeLists.txt \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.h \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/hw2_autogen/moc_predefs.h \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.h \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.h \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/astarsolver.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/dijkstrasolver.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/mainwindow.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/mazewidget.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -566,5 +566,5 @@ hw2_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.ui \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/ui/mainwindow.ui \
 	/usr/bin/cmake

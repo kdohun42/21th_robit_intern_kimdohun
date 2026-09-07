@@ -66,10 +66,10 @@ include CMakeFiles/hw3_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/hw3_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/hw3_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 hw3_autogen_timestamp_deps: CMakeFiles/hw3_autogen_timestamp_deps
 hw3_autogen_timestamp_deps: CMakeFiles/hw3_autogen_timestamp_deps.dir/build.make

@@ -829,18 +829,13 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug",
-		"source" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2"
+		"build" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug",
+		"source" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3"
 	},
 	"version" : 
 	{

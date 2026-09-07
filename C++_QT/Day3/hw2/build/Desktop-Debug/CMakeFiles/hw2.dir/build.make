@@ -90,94 +90,94 @@ CMakeFiles/hw2.dir/hw2_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/hw2_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/hw2_autogen/mocs_compilation.cpp -o CMakeFiles/hw2.dir/hw2_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/hw2.dir/main.cpp.o: CMakeFiles/hw2.dir/flags.make
-CMakeFiles/hw2.dir/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp
-CMakeFiles/hw2.dir/main.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw2.dir/main.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/main.cpp.o -MF CMakeFiles/hw2.dir/main.cpp.o.d -o CMakeFiles/hw2.dir/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp
+CMakeFiles/hw2.dir/src/main.cpp.o: CMakeFiles/hw2.dir/flags.make
+CMakeFiles/hw2.dir/src/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp
+CMakeFiles/hw2.dir/src/main.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw2.dir/src/main.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/src/main.cpp.o -MF CMakeFiles/hw2.dir/src/main.cpp.o.d -o CMakeFiles/hw2.dir/src/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp
 
-CMakeFiles/hw2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/main.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp > CMakeFiles/hw2.dir/main.cpp.i
+CMakeFiles/hw2.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/main.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp > CMakeFiles/hw2.dir/src/main.cpp.i
 
-CMakeFiles/hw2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/main.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp -o CMakeFiles/hw2.dir/main.cpp.s
+CMakeFiles/hw2.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/main.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp -o CMakeFiles/hw2.dir/src/main.cpp.s
 
-CMakeFiles/hw2.dir/mainwindow.cpp.o: CMakeFiles/hw2.dir/flags.make
-CMakeFiles/hw2.dir/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp
-CMakeFiles/hw2.dir/mainwindow.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw2.dir/mainwindow.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/mainwindow.cpp.o -MF CMakeFiles/hw2.dir/mainwindow.cpp.o.d -o CMakeFiles/hw2.dir/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp
+CMakeFiles/hw2.dir/src/mainwindow.cpp.o: CMakeFiles/hw2.dir/flags.make
+CMakeFiles/hw2.dir/src/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp
+CMakeFiles/hw2.dir/src/mainwindow.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw2.dir/src/mainwindow.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/src/mainwindow.cpp.o -MF CMakeFiles/hw2.dir/src/mainwindow.cpp.o.d -o CMakeFiles/hw2.dir/src/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp
 
-CMakeFiles/hw2.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/mainwindow.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp > CMakeFiles/hw2.dir/mainwindow.cpp.i
+CMakeFiles/hw2.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/mainwindow.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp > CMakeFiles/hw2.dir/src/mainwindow.cpp.i
 
-CMakeFiles/hw2.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/mainwindow.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp -o CMakeFiles/hw2.dir/mainwindow.cpp.s
+CMakeFiles/hw2.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/mainwindow.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp -o CMakeFiles/hw2.dir/src/mainwindow.cpp.s
 
-CMakeFiles/hw2.dir/mazewidget.cpp.o: CMakeFiles/hw2.dir/flags.make
-CMakeFiles/hw2.dir/mazewidget.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp
-CMakeFiles/hw2.dir/mazewidget.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw2.dir/mazewidget.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/mazewidget.cpp.o -MF CMakeFiles/hw2.dir/mazewidget.cpp.o.d -o CMakeFiles/hw2.dir/mazewidget.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp
+CMakeFiles/hw2.dir/src/mazewidget.cpp.o: CMakeFiles/hw2.dir/flags.make
+CMakeFiles/hw2.dir/src/mazewidget.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp
+CMakeFiles/hw2.dir/src/mazewidget.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw2.dir/src/mazewidget.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/src/mazewidget.cpp.o -MF CMakeFiles/hw2.dir/src/mazewidget.cpp.o.d -o CMakeFiles/hw2.dir/src/mazewidget.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp
 
-CMakeFiles/hw2.dir/mazewidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/mazewidget.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp > CMakeFiles/hw2.dir/mazewidget.cpp.i
+CMakeFiles/hw2.dir/src/mazewidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/mazewidget.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp > CMakeFiles/hw2.dir/src/mazewidget.cpp.i
 
-CMakeFiles/hw2.dir/mazewidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/mazewidget.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp -o CMakeFiles/hw2.dir/mazewidget.cpp.s
+CMakeFiles/hw2.dir/src/mazewidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/mazewidget.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp -o CMakeFiles/hw2.dir/src/mazewidget.cpp.s
 
-CMakeFiles/hw2.dir/dijkstrasolver.cpp.o: CMakeFiles/hw2.dir/flags.make
-CMakeFiles/hw2.dir/dijkstrasolver.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp
-CMakeFiles/hw2.dir/dijkstrasolver.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hw2.dir/dijkstrasolver.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/dijkstrasolver.cpp.o -MF CMakeFiles/hw2.dir/dijkstrasolver.cpp.o.d -o CMakeFiles/hw2.dir/dijkstrasolver.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp
+CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o: CMakeFiles/hw2.dir/flags.make
+CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp
+CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o -MF CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o.d -o CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp
 
-CMakeFiles/hw2.dir/dijkstrasolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/dijkstrasolver.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp > CMakeFiles/hw2.dir/dijkstrasolver.cpp.i
+CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp > CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.i
 
-CMakeFiles/hw2.dir/dijkstrasolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/dijkstrasolver.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp -o CMakeFiles/hw2.dir/dijkstrasolver.cpp.s
+CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp -o CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.s
 
-CMakeFiles/hw2.dir/astarsolver.cpp.o: CMakeFiles/hw2.dir/flags.make
-CMakeFiles/hw2.dir/astarsolver.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp
-CMakeFiles/hw2.dir/astarsolver.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hw2.dir/astarsolver.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/astarsolver.cpp.o -MF CMakeFiles/hw2.dir/astarsolver.cpp.o.d -o CMakeFiles/hw2.dir/astarsolver.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp
+CMakeFiles/hw2.dir/src/astarsolver.cpp.o: CMakeFiles/hw2.dir/flags.make
+CMakeFiles/hw2.dir/src/astarsolver.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp
+CMakeFiles/hw2.dir/src/astarsolver.cpp.o: CMakeFiles/hw2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hw2.dir/src/astarsolver.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw2.dir/src/astarsolver.cpp.o -MF CMakeFiles/hw2.dir/src/astarsolver.cpp.o.d -o CMakeFiles/hw2.dir/src/astarsolver.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp
 
-CMakeFiles/hw2.dir/astarsolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/astarsolver.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp > CMakeFiles/hw2.dir/astarsolver.cpp.i
+CMakeFiles/hw2.dir/src/astarsolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/astarsolver.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp > CMakeFiles/hw2.dir/src/astarsolver.cpp.i
 
-CMakeFiles/hw2.dir/astarsolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/astarsolver.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp -o CMakeFiles/hw2.dir/astarsolver.cpp.s
+CMakeFiles/hw2.dir/src/astarsolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/astarsolver.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp -o CMakeFiles/hw2.dir/src/astarsolver.cpp.s
 
 # Object files for target hw2
 hw2_OBJECTS = \
 "CMakeFiles/hw2.dir/hw2_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/hw2.dir/main.cpp.o" \
-"CMakeFiles/hw2.dir/mainwindow.cpp.o" \
-"CMakeFiles/hw2.dir/mazewidget.cpp.o" \
-"CMakeFiles/hw2.dir/dijkstrasolver.cpp.o" \
-"CMakeFiles/hw2.dir/astarsolver.cpp.o"
+"CMakeFiles/hw2.dir/src/main.cpp.o" \
+"CMakeFiles/hw2.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/hw2.dir/src/mazewidget.cpp.o" \
+"CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o" \
+"CMakeFiles/hw2.dir/src/astarsolver.cpp.o"
 
 # External object files for target hw2
 hw2_EXTERNAL_OBJECTS =
 
 hw2: CMakeFiles/hw2.dir/hw2_autogen/mocs_compilation.cpp.o
-hw2: CMakeFiles/hw2.dir/main.cpp.o
-hw2: CMakeFiles/hw2.dir/mainwindow.cpp.o
-hw2: CMakeFiles/hw2.dir/mazewidget.cpp.o
-hw2: CMakeFiles/hw2.dir/dijkstrasolver.cpp.o
-hw2: CMakeFiles/hw2.dir/astarsolver.cpp.o
+hw2: CMakeFiles/hw2.dir/src/main.cpp.o
+hw2: CMakeFiles/hw2.dir/src/mainwindow.cpp.o
+hw2: CMakeFiles/hw2.dir/src/mazewidget.cpp.o
+hw2: CMakeFiles/hw2.dir/src/dijkstrasolver.cpp.o
+hw2: CMakeFiles/hw2.dir/src/astarsolver.cpp.o
 hw2: CMakeFiles/hw2.dir/build.make
 hw2: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 hw2: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2

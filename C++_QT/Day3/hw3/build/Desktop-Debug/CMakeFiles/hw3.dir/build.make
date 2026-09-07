@@ -90,46 +90,46 @@ CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/hw3_autogen/mocs_compilation.cpp -o CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/hw3.dir/main.cpp.o: CMakeFiles/hw3.dir/flags.make
-CMakeFiles/hw3.dir/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/main.cpp
-CMakeFiles/hw3.dir/main.cpp.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw3.dir/main.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw3.dir/main.cpp.o -MF CMakeFiles/hw3.dir/main.cpp.o.d -o CMakeFiles/hw3.dir/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/main.cpp
+CMakeFiles/hw3.dir/src/main.cpp.o: CMakeFiles/hw3.dir/flags.make
+CMakeFiles/hw3.dir/src/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/main.cpp
+CMakeFiles/hw3.dir/src/main.cpp.o: CMakeFiles/hw3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw3.dir/src/main.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw3.dir/src/main.cpp.o -MF CMakeFiles/hw3.dir/src/main.cpp.o.d -o CMakeFiles/hw3.dir/src/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/main.cpp
 
-CMakeFiles/hw3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw3.dir/main.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/main.cpp > CMakeFiles/hw3.dir/main.cpp.i
+CMakeFiles/hw3.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw3.dir/src/main.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/main.cpp > CMakeFiles/hw3.dir/src/main.cpp.i
 
-CMakeFiles/hw3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw3.dir/main.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/main.cpp -o CMakeFiles/hw3.dir/main.cpp.s
+CMakeFiles/hw3.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw3.dir/src/main.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/main.cpp -o CMakeFiles/hw3.dir/src/main.cpp.s
 
-CMakeFiles/hw3.dir/mainwindow.cpp.o: CMakeFiles/hw3.dir/flags.make
-CMakeFiles/hw3.dir/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/mainwindow.cpp
-CMakeFiles/hw3.dir/mainwindow.cpp.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw3.dir/mainwindow.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw3.dir/mainwindow.cpp.o -MF CMakeFiles/hw3.dir/mainwindow.cpp.o.d -o CMakeFiles/hw3.dir/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/mainwindow.cpp
+CMakeFiles/hw3.dir/src/mainwindow.cpp.o: CMakeFiles/hw3.dir/flags.make
+CMakeFiles/hw3.dir/src/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/mainwindow.cpp
+CMakeFiles/hw3.dir/src/mainwindow.cpp.o: CMakeFiles/hw3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw3.dir/src/mainwindow.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw3.dir/src/mainwindow.cpp.o -MF CMakeFiles/hw3.dir/src/mainwindow.cpp.o.d -o CMakeFiles/hw3.dir/src/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/mainwindow.cpp
 
-CMakeFiles/hw3.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw3.dir/mainwindow.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/mainwindow.cpp > CMakeFiles/hw3.dir/mainwindow.cpp.i
+CMakeFiles/hw3.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw3.dir/src/mainwindow.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/mainwindow.cpp > CMakeFiles/hw3.dir/src/mainwindow.cpp.i
 
-CMakeFiles/hw3.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw3.dir/mainwindow.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/mainwindow.cpp -o CMakeFiles/hw3.dir/mainwindow.cpp.s
+CMakeFiles/hw3.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw3.dir/src/mainwindow.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/src/mainwindow.cpp -o CMakeFiles/hw3.dir/src/mainwindow.cpp.s
 
 # Object files for target hw3
 hw3_OBJECTS = \
 "CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/hw3.dir/main.cpp.o" \
-"CMakeFiles/hw3.dir/mainwindow.cpp.o"
+"CMakeFiles/hw3.dir/src/main.cpp.o" \
+"CMakeFiles/hw3.dir/src/mainwindow.cpp.o"
 
 # External object files for target hw3
 hw3_EXTERNAL_OBJECTS =
 
 hw3: CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.o
-hw3: CMakeFiles/hw3.dir/main.cpp.o
-hw3: CMakeFiles/hw3.dir/mainwindow.cpp.o
+hw3: CMakeFiles/hw3.dir/src/main.cpp.o
+hw3: CMakeFiles/hw3.dir/src/mainwindow.cpp.o
 hw3: CMakeFiles/hw3.dir/build.make
 hw3: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 hw3: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2

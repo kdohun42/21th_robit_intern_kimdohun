@@ -197,8 +197,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
-		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2",
 	"DEP_FILE" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug/hw2_autogen/deps",
@@ -206,27 +205,27 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.h",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/astarsolver.h",
 			"MU",
-			"EWIEGA46WW/moc_astarsolver.cpp",
+			"6YEA5652QU/moc_astarsolver.cpp",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.h",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/dijkstrasolver.h",
 			"MU",
-			"EWIEGA46WW/moc_dijkstrasolver.cpp",
+			"6YEA5652QU/moc_dijkstrasolver.cpp",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.h",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"6YEA5652QU/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.h",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include/mazewidget.h",
 			"MU",
-			"EWIEGA46WW/moc_mazewidget.cpp",
+			"6YEA5652QU/moc_mazewidget.cpp",
 			null
 		]
 	],
@@ -243,8 +242,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/build/Desktop-Debug",
-		"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2",
+		"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/include",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
@@ -291,33 +289,33 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/astarsolver.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/astarsolver.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/dijkstrasolver.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/dijkstrasolver.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/main.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mainwindow.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/mazewidget.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/src/mazewidget.cpp",
 			"MU",
 			null
 		]
 	],
 	"UIC_OPTIONS" : [],
-	"UIC_SEARCH_PATHS" : [],
+	"UIC_SEARCH_PATHS" : [ "/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw2/ui" ],
 	"UIC_SKIP" : [],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
