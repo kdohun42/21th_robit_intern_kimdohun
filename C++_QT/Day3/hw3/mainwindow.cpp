@@ -240,7 +240,7 @@ void MainWindow::on_btnMark_clicked()
 }
 
 
-// ==================== 영어 확정 ====================
+//  영어 확정
 
 void MainWindow::confirmEnglishCharacter()
 {

@@ -14,17 +14,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    // =========================
-    // 초기 맵 크기
-    // =========================
-
     ui->widget->resizeMaze(10, 10);
 
     ui->widget_2->resizeMaze(10, 10);
-
-    // =========================
-    // 초기 Label 표시
-    // =========================
 
     ui->label->setText(
         "최종 경로 비용 : "
@@ -49,10 +41,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_6->setText(
         "실행 시간 : "
         );
-
-    // =========================
-    // 버튼
-    // =========================
 
     connect(
         ui->pushButton,
@@ -89,21 +77,12 @@ MainWindow::MainWindow(QWidget *parent)
         &MainWindow::onRunButtonClicked
         );
 
-    // =========================
-    // Timer
-    // =========================
-
     connect(
         timer,
         &QTimer::timeout,
         this,
         &MainWindow::onTimerTick
         );
-
-    // =========================
-    // 왼쪽 맵 수정 시
-    // 오른쪽으로 복사
-    // =========================
 
     connect(
         ui->widget,
@@ -126,10 +105,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-// ================================
-// 왼쪽 맵 -> 오른쪽 맵
-// ================================
-
 void MainWindow::syncMaze()
 {
     ui->widget_2->setMapData(
@@ -139,9 +114,7 @@ void MainWindow::syncMaze()
         );
 }
 
-// ================================
 // 장애물
-// ================================
 
 void MainWindow::onObstacleButtonClicked()
 {
@@ -150,9 +123,8 @@ void MainWindow::onObstacleButtonClicked()
         );
 }
 
-// ================================
 // 시작점
-// ================================
+
 
 void MainWindow::onStartButtonClicked()
 {
@@ -161,9 +133,7 @@ void MainWindow::onStartButtonClicked()
         );
 }
 
-// ================================
 // 도착점
-// ================================
 
 void MainWindow::onEndButtonClicked()
 {
@@ -172,9 +142,7 @@ void MainWindow::onEndButtonClicked()
         );
 }
 
-// ================================
 // 맵 크기
-// ================================
 
 void MainWindow::onSizeButtonClicked()
 {
@@ -226,9 +194,7 @@ void MainWindow::onSizeButtonClicked()
         );
 }
 
-// ================================
 // RUN
-// ================================
 
 void MainWindow::onRunButtonClicked()
 {
@@ -249,9 +215,7 @@ void MainWindow::onRunButtonClicked()
     auto end =
         ui->widget->getEnd();
 
-    // =========================
     // Solver 생성
-    // =========================
 
     dijkstraSolver =
         new DijkstraSolver(
@@ -266,10 +230,7 @@ void MainWindow::onRunButtonClicked()
             start,
             end
             );
-
-    // =========================
     // 이전 시각화 삭제
-    // =========================
 
     ui->widget->setVisited({});
     ui->widget->setPath({});
@@ -283,9 +244,7 @@ void MainWindow::onRunButtonClicked()
     ui->widget_2->setVisited({});
     ui->widget_2->setPath({});
 
-    // =========================
     // Label 초기화
-    // =========================
 
     ui->label->setText(
         "현재 비용 : 0"
@@ -311,10 +270,7 @@ void MainWindow::onRunButtonClicked()
         "실행 시간 : 0.000000 ms"
         );
 
-    // =========================
     // 실행 시작
-    // =========================
-
     dijkstraRunning = true;
 
     astarRunning = true;
@@ -322,15 +278,11 @@ void MainWindow::onRunButtonClicked()
     timer->start(200);
 }
 
-// ================================
 // Timer
-// ================================
 
 void MainWindow::onTimerTick()
 {
-    // =====================================
     // Dijkstra
-    // =====================================
 
     if (
         dijkstraRunning &&
@@ -340,17 +292,14 @@ void MainWindow::onTimerTick()
         bool running =
             dijkstraSolver->step();
 
-        // -------------------------
         // 시각화 갱신
-        // -------------------------
 
         ui->widget->setVisited(
             dijkstraSolver->getVisited()
             );
 
-        // -------------------------
+
         // 실시간 비용
-        // -------------------------
 
         ui->label->setText(
             QString("현재 비용 : %1")
@@ -360,9 +309,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 실시간 탐색 노드 수
-        // -------------------------
 
         ui->label_2->setText(
             QString("탐색한 노드 수 : %1")
@@ -372,9 +319,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 실시간 실행 시간
-        // -------------------------
 
         ui->label_3->setText(
             QString("실행 시간 : %1 ms")
@@ -387,9 +332,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 경로 발견
-        // -------------------------
 
         if (
             dijkstraSolver->isPathFound()
@@ -410,10 +353,7 @@ void MainWindow::onTimerTick()
                         )
                 );
         }
-
-        // -------------------------
         // 경로 없음
-        // -------------------------
 
         else if (!running)
         {
@@ -425,10 +365,7 @@ void MainWindow::onTimerTick()
         }
     }
 
-
-    // =====================================
     // A*
-    // =====================================
 
     if (
         astarRunning &&
@@ -438,17 +375,13 @@ void MainWindow::onTimerTick()
         bool running =
             astarSolver->step();
 
-        // -------------------------
         // 시각화
-        // -------------------------
 
         ui->widget_2->setVisited(
             astarSolver->getVisited()
             );
 
-        // -------------------------
         // 실시간 비용
-        // -------------------------
 
         ui->label_4->setText(
             QString("현재 비용 : %1")
@@ -458,9 +391,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 실시간 탐색 노드
-        // -------------------------
 
         ui->label_5->setText(
             QString("탐색한 노드 수 : %1")
@@ -470,9 +401,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 실시간 실행 시간
-        // -------------------------
 
         ui->label_6->setText(
             QString("실행 시간 : %1 ms")
@@ -485,9 +414,7 @@ void MainWindow::onTimerTick()
                     )
             );
 
-        // -------------------------
         // 경로 발견
-        // -------------------------
 
         if (
             astarSolver->isPathFound()
@@ -508,9 +435,7 @@ void MainWindow::onTimerTick()
                 );
         }
 
-        // -------------------------
         // 경로 없음
-        // -------------------------
 
         else if (!running)
         {
@@ -522,10 +447,7 @@ void MainWindow::onTimerTick()
         }
     }
 
-
-    // =====================================
     // 둘 다 종료
-    // =====================================
 
     if (
         !dijkstraRunning &&
