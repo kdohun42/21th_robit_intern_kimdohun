@@ -1,0 +1,5 @@
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles/hw3.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles/hw3_autogen_timestamp_deps.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day3/hw3/build/Desktop-Debug/CMakeFiles/hw3_autogen.dir

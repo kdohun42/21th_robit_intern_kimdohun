@@ -1,0 +1,9 @@
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/hw1_package.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/install.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/hw1_package_autogen_timestamp_deps.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/hw1_package_autogen.dir
