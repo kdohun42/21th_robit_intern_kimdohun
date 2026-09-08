@@ -90,46 +90,46 @@ CMakeFiles/hw1_package.dir/hw1_package_autogen/mocs_compilation.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw1_package.dir/hw1_package_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/hw1_package_autogen/mocs_compilation.cpp -o CMakeFiles/hw1_package.dir/hw1_package_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/hw1_package.dir/main.cpp.o: CMakeFiles/hw1_package.dir/flags.make
-CMakeFiles/hw1_package.dir/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp
-CMakeFiles/hw1_package.dir/main.cpp.o: CMakeFiles/hw1_package.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw1_package.dir/main.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw1_package.dir/main.cpp.o -MF CMakeFiles/hw1_package.dir/main.cpp.o.d -o CMakeFiles/hw1_package.dir/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp
+CMakeFiles/hw1_package.dir/src/main.cpp.o: CMakeFiles/hw1_package.dir/flags.make
+CMakeFiles/hw1_package.dir/src/main.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp
+CMakeFiles/hw1_package.dir/src/main.cpp.o: CMakeFiles/hw1_package.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw1_package.dir/src/main.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw1_package.dir/src/main.cpp.o -MF CMakeFiles/hw1_package.dir/src/main.cpp.o.d -o CMakeFiles/hw1_package.dir/src/main.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp
 
-CMakeFiles/hw1_package.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw1_package.dir/main.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp > CMakeFiles/hw1_package.dir/main.cpp.i
+CMakeFiles/hw1_package.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw1_package.dir/src/main.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp > CMakeFiles/hw1_package.dir/src/main.cpp.i
 
-CMakeFiles/hw1_package.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw1_package.dir/main.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp -o CMakeFiles/hw1_package.dir/main.cpp.s
+CMakeFiles/hw1_package.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw1_package.dir/src/main.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp -o CMakeFiles/hw1_package.dir/src/main.cpp.s
 
-CMakeFiles/hw1_package.dir/mainwindow.cpp.o: CMakeFiles/hw1_package.dir/flags.make
-CMakeFiles/hw1_package.dir/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp
-CMakeFiles/hw1_package.dir/mainwindow.cpp.o: CMakeFiles/hw1_package.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw1_package.dir/mainwindow.cpp.o"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw1_package.dir/mainwindow.cpp.o -MF CMakeFiles/hw1_package.dir/mainwindow.cpp.o.d -o CMakeFiles/hw1_package.dir/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp
+CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o: CMakeFiles/hw1_package.dir/flags.make
+CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o: /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp
+CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o: CMakeFiles/hw1_package.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o -MF CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o.d -o CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o -c /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp
 
-CMakeFiles/hw1_package.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw1_package.dir/mainwindow.cpp.i"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp > CMakeFiles/hw1_package.dir/mainwindow.cpp.i
+CMakeFiles/hw1_package.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hw1_package.dir/src/mainwindow.cpp.i"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp > CMakeFiles/hw1_package.dir/src/mainwindow.cpp.i
 
-CMakeFiles/hw1_package.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw1_package.dir/mainwindow.cpp.s"
-	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp -o CMakeFiles/hw1_package.dir/mainwindow.cpp.s
+CMakeFiles/hw1_package.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hw1_package.dir/src/mainwindow.cpp.s"
+	/usr/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp -o CMakeFiles/hw1_package.dir/src/mainwindow.cpp.s
 
 # Object files for target hw1_package
 hw1_package_OBJECTS = \
 "CMakeFiles/hw1_package.dir/hw1_package_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/hw1_package.dir/main.cpp.o" \
-"CMakeFiles/hw1_package.dir/mainwindow.cpp.o"
+"CMakeFiles/hw1_package.dir/src/main.cpp.o" \
+"CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o"
 
 # External object files for target hw1_package
 hw1_package_EXTERNAL_OBJECTS =
 
 hw1_package: CMakeFiles/hw1_package.dir/hw1_package_autogen/mocs_compilation.cpp.o
-hw1_package: CMakeFiles/hw1_package.dir/main.cpp.o
-hw1_package: CMakeFiles/hw1_package.dir/mainwindow.cpp.o
+hw1_package: CMakeFiles/hw1_package.dir/src/main.cpp.o
+hw1_package: CMakeFiles/hw1_package.dir/src/mainwindow.cpp.o
 hw1_package: CMakeFiles/hw1_package.dir/build.make
 hw1_package: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 hw1_package: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2

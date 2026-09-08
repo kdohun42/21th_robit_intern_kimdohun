@@ -4,9 +4,9 @@ hw1_package_autogen/timestamp: \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/build/Desktop-Debug/hw1_package_autogen/moc_predefs.h \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/include/mainwindow.h \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -598,5 +598,5 @@ hw1_package_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.ui \
+	/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/ui/mainwindow.ui \
 	/usr/bin/cmake

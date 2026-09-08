@@ -215,9 +215,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.h",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/include/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"6YEA5652QU/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -234,6 +234,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/include",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
@@ -281,18 +282,21 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/main.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/mainwindow.cpp",
+			"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/src/mainwindow.cpp",
 			"MU",
 			null
 		]
 	],
 	"UIC_OPTIONS" : [],
-	"UIC_SEARCH_PATHS" : [],
+	"UIC_SEARCH_PATHS" : 
+	[
+		"/home/kdh/Desktop/21th_robit_intern_kimdohun/C++_QT/Day4/hw1/hw1_package/ui"
+	],
 	"UIC_SKIP" : [],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
