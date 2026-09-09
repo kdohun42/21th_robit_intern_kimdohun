@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg -- -j16 -l16
+[0.106s] [ 11%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o[0m
+[3.879s] [ 22%] [32m[1mLinking CXX executable hw3_pkg[0m
+[4.967s] [100%] Built target hw3_pkg
+[4.987s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg -- -j16 -l16
+[5.004s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg
+[5.018s] -- Install configuration: ""
+[5.018s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/lib/hw3_pkg/hw3_pkg
+[5.026s] -- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/lib/hw3_pkg/hw3_pkg" to ""
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/package_run_dependencies/hw3_pkg
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/parent_prefix_path/hw3_pkg
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/ament_prefix_path.sh
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/ament_prefix_path.dsv
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/path.sh
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/path.dsv
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.bash
+[5.026s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.sh
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.zsh
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.dsv
+[5.027s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/package.dsv
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/packages/hw3_pkg
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/cmake/hw3_pkgConfig.cmake
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/cmake/hw3_pkgConfig-version.cmake
+[5.027s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/package.xml
+[5.031s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg

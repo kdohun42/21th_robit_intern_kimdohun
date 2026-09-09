@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (hw3_pkg) JobQueued: {'identifier': 'hw3_pkg', 'dependencies': OrderedDict()}
+[0.000894] (hw3_pkg) JobStarted: {'identifier': 'hw3_pkg'}
+[0.007144] (hw3_pkg) JobProgress: {'identifier': 'hw3_pkg', 'progress': 'cmake'}
+[0.008321] (hw3_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg', '-DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/install/hw3_pkg'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e872d87f_efda_4142_805b_d43f991c72b9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099467] (hw3_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099824] (-) TimerEvent: {}
+[0.186884] (hw3_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.200027] (-) TimerEvent: {}
+[0.216264] (hw3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300197] (-) TimerEvent: {}
+[0.362574] (hw3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.378982] (hw3_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.379345] (hw3_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.379708] (hw3_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.392749] (hw3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400295] (-) TimerEvent: {}
+[0.500631] (-) TimerEvent: {}
+[0.522804] (hw3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.541774] (hw3_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.542191] (hw3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.542785] (hw3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.545037] (hw3_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600702] (-) TimerEvent: {}
+[0.656645] (hw3_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700875] (-) TimerEvent: {}
+[0.756822] (hw3_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.789761] (hw3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.797334] (hw3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.801037] (-) TimerEvent: {}
+[0.807066] (hw3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.817753] (hw3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.869943] (hw3_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.871072] (hw3_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901266] (-) TimerEvent: {}
+[0.966883] (hw3_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.993069] (hw3_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.001340] (-) TimerEvent: {}
+[1.033105] (hw3_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101516] (-) TimerEvent: {}
+[1.108934] (hw3_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.201764] (-) TimerEvent: {}
+[1.254905] (hw3_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.71.0") found components: thread \n'}
+[1.281151] (hw3_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.301978] (-) TimerEvent: {}
+[1.394005] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.402090] (-) TimerEvent: {}
+[1.413824] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.414140] (hw3_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/include\n'}
+[1.414212] (hw3_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.431248] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.431358] (hw3_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.437931] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.466010] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.466216] (hw3_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.470198] (hw3_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.471163] (hw3_pkg) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.488520] (hw3_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.490833] (hw3_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg\n'}
+[1.502310] (-) TimerEvent: {}
+[1.506989] (hw3_pkg) CommandEnded: {'returncode': 0}
+[1.509941] (hw3_pkg) JobProgress: {'identifier': 'hw3_pkg', 'progress': 'build'}
+[1.509988] (hw3_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e872d87f_efda_4142_805b_d43f991c72b9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.565070] (hw3_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[1.565466] (hw3_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating include/hw3_pkg/moc_main_window.cpp\x1b[0m\n'}
+[1.571919] (hw3_pkg) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating include/hw3_pkg/moc_qnode.cpp\x1b[0m\n'}
+[1.602527] (-) TimerEvent: {}
+[1.614455] (hw3_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o\x1b[0m\n'}
+[1.614751] (hw3_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/include/hw3_pkg/moc_qnode.cpp.o\x1b[0m\n'}
+[1.614835] (hw3_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/include/hw3_pkg/moc_main_window.cpp.o\x1b[0m\n'}
+[1.615840] (hw3_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main.cpp.o\x1b[0m\n'}
+[1.615927] (hw3_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/qnode.cpp.o\x1b[0m\n'}
+[1.702676] (-) TimerEvent: {}
+[1.803218] (-) TimerEvent: {}
+[1.903821] (-) TimerEvent: {}
+[2.004475] (-) TimerEvent: {}
+[2.105020] (-) TimerEvent: {}
+[2.205593] (-) TimerEvent: {}
+[2.306231] (-) TimerEvent: {}
+[2.406813] (-) TimerEvent: {}
+[2.507430] (-) TimerEvent: {}
+[2.608059] (-) TimerEvent: {}
+[2.708631] (-) TimerEvent: {}
+[2.809284] (-) TimerEvent: {}
+[2.909870] (-) TimerEvent: {}
+[3.010507] (-) TimerEvent: {}
+[3.111189] (-) TimerEvent: {}
+[3.211772] (-) TimerEvent: {}
+[3.312441] (-) TimerEvent: {}
+[3.413088] (-) TimerEvent: {}
+[3.513650] (-) TimerEvent: {}
+[3.614336] (-) TimerEvent: {}
+[3.714978] (-) TimerEvent: {}
+[3.815618] (-) TimerEvent: {}
+[3.916182] (-) TimerEvent: {}
+[4.016759] (-) TimerEvent: {}
+[4.117321] (-) TimerEvent: {}
+[4.217880] (-) TimerEvent: {}
+[4.318494] (-) TimerEvent: {}
+[4.419142] (-) TimerEvent: {}
+[4.445185] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMainWindow::\x1b[01;32m\x1b[KMainWindow\x1b[m\x1b[K(QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.445682] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainWindow::connect(QNode**, void (QNode::*)(QString), MainWindow*, void (MainWindow::*)(QString))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.445833] (hw3_pkg) StderrLine: {'line': b'   18 |     \x1b[01;31m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.445951] (hw3_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.446061] (hw3_pkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K        &qnode,\x1b[m\x1b[K\n'}
+[4.446171] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.446313] (hw3_pkg) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K        &QNode::messageReceived,\x1b[m\x1b[K\n'}
+[4.446456] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.446587] (hw3_pkg) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K        this,\x1b[m\x1b[K\n'}
+[4.446715] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.446844] (hw3_pkg) StderrLine: {'line': b'   22 | \x1b[01;31m\x1b[K        &MainWindow::updateReceivedMessage\x1b[m\x1b[K\n'}
+[4.447063] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.447193] (hw3_pkg) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[4.447337] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.447463] (hw3_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[4.447583] (hw3_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[4.447699] (hw3_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[4.447815] (hw3_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/../include/hw3_pkg/main_window.hpp:16\x1b[m\x1b[K,\n'}
+[4.447934] (hw3_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:12\x1b[m\x1b[K:\n'}
+[4.448051] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString); typename QtPrivate::FunctionPointer<Func>::Object = QNode; typename QtPrivate::FunctionPointer<Func2>::Object = MainWindow]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.448189] (hw3_pkg) StderrLine: {'line': b'  242 |     static inline QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,\n'}
+[4.448321] (hw3_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.448450] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:109:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QtPrivate::FunctionPointer<void (QNode::*)(QString)>::Object*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst QNode*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.448579] (hw3_pkg) StderrLine: {'line': b'  242 |     static inline QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst typename QtPrivate::FunctionPointer<Func1>::Object *sender\x1b[m\x1b[K, Func1 signal,\n'}
+[4.448703] (hw3_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.448822] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.448954] (hw3_pkg) StderrLine: {'line': b'  274 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[4.449073] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.449193] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.468388] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.468771] (hw3_pkg) StderrLine: {'line': b'   18 |     \x1b[01;36m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.468881] (hw3_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.468993] (hw3_pkg) StderrLine: {'line': b'   19 | \x1b[01;36m\x1b[K        &qnode,\x1b[m\x1b[K\n'}
+[4.469097] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.469199] (hw3_pkg) StderrLine: {'line': b'   20 | \x1b[01;36m\x1b[K        &QNode::messageReceived,\x1b[m\x1b[K\n'}
+[4.469317] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.470099] (hw3_pkg) StderrLine: {'line': b'   21 | \x1b[01;36m\x1b[K        this,\x1b[m\x1b[K\n'}
+[4.470234] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.470356] (hw3_pkg) StderrLine: {'line': b'   22 | \x1b[01;36m\x1b[K        &MainWindow::updateReceivedMessage\x1b[m\x1b[K\n'}
+[4.470454] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.470544] (hw3_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K        )\x1b[m\x1b[K;\n'}
+[4.470631] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.470718] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.470832] (hw3_pkg) StderrLine: {'line': b'  283 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[4.470930] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.471016] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.471104] (hw3_pkg) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString)]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.471198] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:\x1b[m\x1b[K   required from here\n'}
+[4.471292] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.471390] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.471482] (hw3_pkg) StderrLine: {'line': b'  314 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[4.471568] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.471653] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.471740] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.471841] (hw3_pkg) StderrLine: {'line': b'   18 |     \x1b[01;36m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.471942] (hw3_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.472051] (hw3_pkg) StderrLine: {'line': b'   19 | \x1b[01;36m\x1b[K        &qnode,\x1b[m\x1b[K\n'}
+[4.472171] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.472302] (hw3_pkg) StderrLine: {'line': b'   20 | \x1b[01;36m\x1b[K        &QNode::messageReceived,\x1b[m\x1b[K\n'}
+[4.472433] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.472834] (hw3_pkg) StderrLine: {'line': b'   21 | \x1b[01;36m\x1b[K        this,\x1b[m\x1b[K\n'}
+[4.472973] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.473090] (hw3_pkg) StderrLine: {'line': b'   22 | \x1b[01;36m\x1b[K        &MainWindow::updateReceivedMessage\x1b[m\x1b[K\n'}
+[4.473204] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.473338] (hw3_pkg) StderrLine: {'line': b'   23 | \x1b[01;36m\x1b[K        )\x1b[m\x1b[K;\n'}
+[4.473461] (hw3_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.473572] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.473698] (hw3_pkg) StderrLine: {'line': b'  322 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[4.473847] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.473970] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.474093] (hw3_pkg) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString)]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.474223] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:\x1b[m\x1b[K   required from here\n'}
+[4.474399] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.474539] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.474667] (hw3_pkg) StderrLine: {'line': b'  222 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const char *signal,\n'}
+[4.474785] (hw3_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.474885] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.474992] (hw3_pkg) StderrLine: {'line': b'  222 |     static QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst QObject *sender\x1b[m\x1b[K, const char *signal,\n'}
+[4.475100] (hw3_pkg) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.475201] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.475318] (hw3_pkg) StderrLine: {'line': b'  225 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const QMetaMethod &signal,\n'}
+[4.475427] (hw3_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.475529] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.475631] (hw3_pkg) StderrLine: {'line': b'  225 |     static QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst QObject *sender\x1b[m\x1b[K, const QMetaMethod &signal,\n'}
+[4.475737] (hw3_pkg) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.475838] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KQMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const char*, const char*, Qt::ConnectionType) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.475950] (hw3_pkg) StderrLine: {'line': b'  481 | inline QMetaObject::Connection \x1b[01;36m\x1b[KQObject\x1b[m\x1b[K::connect(const QObject *asender, const char *asignal,\n'}
+[4.476053] (hw3_pkg) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.476155] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.476257] (hw3_pkg) StderrLine: {'line': b'  481 | inline QMetaObject::Connection QObject::connect(\x1b[01;36m\x1b[Kconst QObject *asender\x1b[m\x1b[K, const char *asignal,\n'}
+[4.476371] (hw3_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.476475] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainWindow::connect(QNode**, void (QNode::*)(), MainWindow*, bool (QWidget::*)())\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.476582] (hw3_pkg) StderrLine: {'line': b'   26 |   \x1b[01;31m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.476684] (hw3_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.476782] (hw3_pkg) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K      &qnode,\x1b[m\x1b[K\n'}
+[4.476883] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.476984] (hw3_pkg) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K      &QNode::rosShutDown,\x1b[m\x1b[K\n'}
+[4.477094] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.477193] (hw3_pkg) StderrLine: {'line': b'   29 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[4.477297] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.477408] (hw3_pkg) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K      &MainWindow::close\x1b[m\x1b[K\n'}
+[4.477514] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.477615] (hw3_pkg) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[K      )\x1b[m\x1b[K;\n'}
+[4.477713] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.477807] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)(); typename QtPrivate::FunctionPointer<Func>::Object = QNode; typename QtPrivate::FunctionPointer<Func2>::Object = QWidget]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.477920] (hw3_pkg) StderrLine: {'line': b'  242 |     static inline QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,\n'}
+[4.478019] (hw3_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.478113] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:109:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QtPrivate::FunctionPointer<void (QNode::*)()>::Object*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst QNode*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.478212] (hw3_pkg) StderrLine: {'line': b'  242 |     static inline QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst typename QtPrivate::FunctionPointer<Func1>::Object *sender\x1b[m\x1b[K, Func1 signal,\n'}
+[4.478316] (hw3_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.478417] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.478513] (hw3_pkg) StderrLine: {'line': b'  274 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[4.478607] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.478699] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.478794] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.478894] (hw3_pkg) StderrLine: {'line': b'   26 |   \x1b[01;36m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.478989] (hw3_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.479081] (hw3_pkg) StderrLine: {'line': b'   27 | \x1b[01;36m\x1b[K      &qnode,\x1b[m\x1b[K\n'}
+[4.479174] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.479265] (hw3_pkg) StderrLine: {'line': b'   28 | \x1b[01;36m\x1b[K      &QNode::rosShutDown,\x1b[m\x1b[K\n'}
+[4.479372] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479475] (hw3_pkg) StderrLine: {'line': b'   29 | \x1b[01;36m\x1b[K      this,\x1b[m\x1b[K\n'}
+[4.479568] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.479661] (hw3_pkg) StderrLine: {'line': b'   30 | \x1b[01;36m\x1b[K      &MainWindow::close\x1b[m\x1b[K\n'}
+[4.479766] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479873] (hw3_pkg) StderrLine: {'line': b'   31 | \x1b[01;36m\x1b[K      )\x1b[m\x1b[K;\n'}
+[4.479982] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.480090] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.480211] (hw3_pkg) StderrLine: {'line': b'  283 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[4.480330] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.480447] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.480555] (hw3_pkg) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)()]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.480683] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:\x1b[m\x1b[K   required from here\n'}
+[4.480793] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.480890] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.480992] (hw3_pkg) StderrLine: {'line': b'  314 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[4.481086] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.481179] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.481271] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[4.481382] (hw3_pkg) StderrLine: {'line': b'   26 |   \x1b[01;36m\x1b[Kconnect(\x1b[m\x1b[K\n'}
+[4.481478] (hw3_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[4.481570] (hw3_pkg) StderrLine: {'line': b'   27 | \x1b[01;36m\x1b[K      &qnode,\x1b[m\x1b[K\n'}
+[4.481662] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.481754] (hw3_pkg) StderrLine: {'line': b'   28 | \x1b[01;36m\x1b[K      &QNode::rosShutDown,\x1b[m\x1b[K\n'}
+[4.481847] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.481941] (hw3_pkg) StderrLine: {'line': b'   29 | \x1b[01;36m\x1b[K      this,\x1b[m\x1b[K\n'}
+[4.482033] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.482127] (hw3_pkg) StderrLine: {'line': b'   30 | \x1b[01;36m\x1b[K      &MainWindow::close\x1b[m\x1b[K\n'}
+[4.482215] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.482313] (hw3_pkg) StderrLine: {'line': b'   31 | \x1b[01;36m\x1b[K      )\x1b[m\x1b[K;\n'}
+[4.482406] (hw3_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~\x1b[m\x1b[K   \n'}
+[4.482500] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.482592] (hw3_pkg) StderrLine: {'line': b'  322 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[4.482679] (hw3_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.482765] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.482851] (hw3_pkg) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) \x1b[35m\x1b[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)()]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.483079] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:\x1b[m\x1b[K   required from here\n'}
+[4.483167] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.483253] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.483355] (hw3_pkg) StderrLine: {'line': b'  222 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const char *signal,\n'}
+[4.483450] (hw3_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.483547] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.483635] (hw3_pkg) StderrLine: {'line': b'  222 |     static QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst QObject *sender\x1b[m\x1b[K, const char *signal,\n'}
+[4.483722] (hw3_pkg) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.483808] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.483896] (hw3_pkg) StderrLine: {'line': b'  225 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const QMetaMethod &signal,\n'}
+[4.483982] (hw3_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.484073] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.484161] (hw3_pkg) StderrLine: {'line': b'  225 |     static QMetaObject::Connection connect(\x1b[01;36m\x1b[Kconst QObject *sender\x1b[m\x1b[K, const QMetaMethod &signal,\n'}
+[4.484249] (hw3_pkg) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.484345] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KQMetaObject::Connection QObject::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const QObject*, const char*, const char*, Qt::ConnectionType) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.484436] (hw3_pkg) StderrLine: {'line': b'  481 | inline QMetaObject::Connection \x1b[01;36m\x1b[KQObject\x1b[m\x1b[K::connect(const QObject *asender, const char *asignal,\n'}
+[4.484524] (hw3_pkg) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.484614] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KQNode**\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QObject*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.484707] (hw3_pkg) StderrLine: {'line': b'  481 | inline QMetaObject::Connection QObject::connect(\x1b[01;36m\x1b[Kconst QObject *asender\x1b[m\x1b[K, const char *asignal,\n'}
+[4.484793] (hw3_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.484881] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::\x1b[01;32m\x1b[Kon_pushButton_clicked\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.484969] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:55:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KpublishMessage\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MainWindow*)this)->MainWindow::qnode\x1b[m\x1b[K\xe2\x80\x99, which is of pointer type \xe2\x80\x98\x1b[01m\x1b[KQNode*\x1b[m\x1b[K\xe2\x80\x99 (maybe you meant to use \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[4.485066] (hw3_pkg) StderrLine: {'line': b'   55 |     qnode.\x1b[01;31m\x1b[KpublishMessage\x1b[m\x1b[K(text.toStdString());\n'}
+[4.485152] (hw3_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.485238] (hw3_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:55:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktext\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.485338] (hw3_pkg) StderrLine: {'line': b'   55 |     qnode.publishMessage(\x1b[01;31m\x1b[Ktext\x1b[m\x1b[K.toStdString());\n'}
+[4.485427] (hw3_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.519386] (-) TimerEvent: {}
+[4.620030] (-) TimerEvent: {}
+[4.720706] (-) TimerEvent: {}
+[4.821399] (-) TimerEvent: {}
+[4.921936] (-) TimerEvent: {}
+[5.022499] (-) TimerEvent: {}
+[5.122928] (-) TimerEvent: {}
+[5.223294] (-) TimerEvent: {}
+[5.323617] (-) TimerEvent: {}
+[5.340711] (hw3_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hw3_pkg.dir/build.make:102: CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o] Error 1\n'}
+[5.341015] (hw3_pkg) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[5.423761] (-) TimerEvent: {}
+[5.524170] (-) TimerEvent: {}
+[5.624555] (-) TimerEvent: {}
+[5.725131] (-) TimerEvent: {}
+[5.825655] (-) TimerEvent: {}
+[5.926251] (-) TimerEvent: {}
+[6.026777] (-) TimerEvent: {}
+[6.127380] (-) TimerEvent: {}
+[6.227916] (-) TimerEvent: {}
+[6.328495] (-) TimerEvent: {}
+[6.429138] (-) TimerEvent: {}
+[6.529761] (-) TimerEvent: {}
+[6.630508] (-) TimerEvent: {}
+[6.731151] (-) TimerEvent: {}
+[6.831759] (-) TimerEvent: {}
+[6.932347] (-) TimerEvent: {}
+[7.032867] (-) TimerEvent: {}
+[7.133429] (-) TimerEvent: {}
+[7.233972] (-) TimerEvent: {}
+[7.334556] (-) TimerEvent: {}
+[7.435128] (-) TimerEvent: {}
+[7.535783] (-) TimerEvent: {}
+[7.636343] (-) TimerEvent: {}
+[7.736904] (-) TimerEvent: {}
+[7.837515] (-) TimerEvent: {}
+[7.938066] (-) TimerEvent: {}
+[8.038691] (-) TimerEvent: {}
+[8.139239] (-) TimerEvent: {}
+[8.239718] (-) TimerEvent: {}
+[8.340275] (-) TimerEvent: {}
+[8.440876] (-) TimerEvent: {}
+[8.541441] (-) TimerEvent: {}
+[8.642004] (-) TimerEvent: {}
+[8.742593] (-) TimerEvent: {}
+[8.843152] (-) TimerEvent: {}
+[8.943733] (-) TimerEvent: {}
+[9.044302] (-) TimerEvent: {}
+[9.144856] (-) TimerEvent: {}
+[9.245451] (-) TimerEvent: {}
+[9.346020] (-) TimerEvent: {}
+[9.446625] (-) TimerEvent: {}
+[9.501609] (hw3_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hw3_pkg.dir/all] Error 2\n'}
+[9.502024] (hw3_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.507121] (hw3_pkg) CommandEnded: {'returncode': 2}
+[9.521483] (hw3_pkg) JobEnded: {'identifier': 'hw3_pkg', 'rc': 2}
+[9.532393] (-) EventReactorShutdown: {}

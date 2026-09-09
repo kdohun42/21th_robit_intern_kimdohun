@@ -1,0 +1,14 @@
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Khw1_pkg/publisher.hpp: No such file or directory
+    1 | #include [01;31m[K"hw1_pkg/publisher.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Khw1_pkg/helloworld_subscriber.hpp: No such file or directory
+    1 | #include [01;31m[K"hw1_pkg/helloworld_subscriber.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

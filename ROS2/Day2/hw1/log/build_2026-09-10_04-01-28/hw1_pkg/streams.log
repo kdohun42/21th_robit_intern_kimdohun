@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg': AMENT_PREFIX_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg -- -j16 -l16
+[0.111s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.115s] [ 75%] Built target subscriber
+[2.034s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:[m[K In constructor ‘[01m[KHelloworldPublisher::[01;32m[KHelloworldPublisher[m[K()[m[K’:
+[2.035s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:20:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_vector_msg[m[K’ is not a member of ‘[01m[KHelloworldPublisher[m[K’
+[2.035s]    20 |       &HelloworldPublisher::[01;31m[Kpublish_vector_msg[m[K,
+[2.035s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.035s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:[m[K At global scope:
+[2.035s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:27:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid HelloworldPublisher::[01;32m[Kpublish_vector_msg[m[K()[m[K’
+[2.035s]    27 | void [01;31m[KHelloworldPublisher[m[K::publish_vector_msg()
+[2.035s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.035s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:27:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid HelloworldPublisher::[01;32m[Kpublish_vector_msg[m[K()[m[K’
+[2.035s] In file included from [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:1[m[K:
+[2.036s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/include/hw1_pkg/publisher.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HelloworldPublisher[m[K’ defined here
+[2.036s]    12 | class [01;36m[KHelloworldPublisher[m[K : public rclcpp::Node
+[2.036s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.990s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[2.990s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+[2.991s] gmake: *** [Makefile:146: all] Error 2
+[2.996s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg' returned '2': AMENT_PREFIX_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg -- -j16 -l16

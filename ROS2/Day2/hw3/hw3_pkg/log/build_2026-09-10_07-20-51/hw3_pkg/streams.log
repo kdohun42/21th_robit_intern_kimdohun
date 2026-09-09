@@ -1,0 +1,232 @@
+[0.013s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg
+[0.098s] -- The C compiler identification is GNU 13.3.0
+[0.186s] -- The CXX compiler identification is GNU 13.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.560s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.881s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.917s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.924s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.996s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.997s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.091s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.118s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.205s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.71.0") found components: thread 
+[1.370s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.484s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.506s] -- Configured cppcheck include dirs: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/include;/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg
+[1.506s] -- Configured cppcheck exclude dirs and/or files: 
+[1.525s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.525s] -- Configured cpplint exclude dirs and/or files: 
+[1.533s] -- Added test 'lint_cmake' to check CMake code style
+[1.564s] -- Added test 'uncrustify' to check C / C++ code style
+[1.564s] -- Configured uncrustify additional arguments: 
+[1.566s] -- Added test 'xmllint' to check XML markup files
+[1.567s] -- Configuring done (1.5s)
+[1.585s] -- Generating done (0.0s)
+[1.588s] -- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg
+[1.605s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg
+[1.607s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg -- -j16 -l16
+[1.674s] [ 11%] [34m[1mGenerating ui_mainwindow.h[0m
+[1.674s] [ 22%] [34m[1mGenerating include/hw3_pkg/moc_qnode.cpp[0m
+[1.678s] [ 33%] [34m[1mGenerating include/hw3_pkg/moc_main_window.cpp[0m
+[1.718s] [ 66%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/include/hw3_pkg/moc_main_window.cpp.o[0m
+[1.718s] [ 66%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o[0m
+[1.718s] [ 66%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/qnode.cpp.o[0m
+[1.719s] [ 77%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main.cpp.o[0m
+[1.719s] [ 88%] [32mBuilding CXX object CMakeFiles/hw3_pkg.dir/include/hw3_pkg/moc_qnode.cpp.o[0m
+[4.540s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:[m[K In constructor ‘[01m[KMainWindow::[01;32m[KMainWindow[m[K(QWidget*)[m[K’:
+[4.541s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainWindow::connect(QNode**, void (QNode::*)(QString), MainWindow*, void (MainWindow::*)(QString))[m[K’
+[4.541s]    18 |     [01;31m[Kconnect([m[K
+[4.541s]       |     [01;31m[K~~~~~~~^[m[K
+[4.541s]    19 | [01;31m[K        &qnode,[m[K
+[4.542s]       |         [01;31m[K~~~~~~~[m[K
+[4.542s]    20 | [01;31m[K        &QNode::messageReceived,[m[K
+[4.542s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.543s]    21 | [01;31m[K        this,[m[K
+[4.543s]       |         [01;31m[K~~~~~[m[K
+[4.543s]    22 | [01;31m[K        &MainWindow::updateReceivedMessage[m[K
+[4.543s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.543s]    23 | [01;31m[K        )[m[K;
+[4.543s]       |         [01;31m[K~[m[K   
+[4.544s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[4.544s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[4.544s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[4.544s]                  from [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/../include/hw3_pkg/main_window.hpp:16[m[K,
+[4.544s]                  from [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:12[m[K:
+[4.544s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString); typename QtPrivate::FunctionPointer<Func>::Object = QNode; typename QtPrivate::FunctionPointer<Func2>::Object = MainWindow][m[K[m[K’
+[4.544s]   242 |     static inline QMetaObject::Connection [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,
+[4.544s]       |                                           [01;36m[K^~~~~~~[m[K
+[4.544s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:109:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QtPrivate::FunctionPointer<void (QNode::*)(QString)>::Object*[m[K’ {aka ‘[01m[Kconst QNode*[m[K’}
+[4.545s]   242 |     static inline QMetaObject::Connection connect([01;36m[Kconst typename QtPrivate::FunctionPointer<Func1>::Object *sender[m[K, Func1 signal,
+[4.545s]       |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.545s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[4.545s]   274 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[4.545s]       |             [01;36m[K^~~~~~~[m[K
+[4.545s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.545s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[4.545s]    18 |     [01;36m[Kconnect([m[K
+[4.546s]       |     [01;36m[K~~~~~~~^[m[K
+[4.546s]    19 | [01;36m[K        &qnode,[m[K
+[4.546s]       |         [01;36m[K~~~~~~~[m[K
+[4.546s]    20 | [01;36m[K        &QNode::messageReceived,[m[K
+[4.546s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.546s]    21 | [01;36m[K        this,[m[K
+[4.546s]       |         [01;36m[K~~~~~[m[K
+[4.546s]    22 | [01;36m[K        &MainWindow::updateReceivedMessage[m[K
+[4.546s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.547s]    23 | [01;36m[K        )[m[K;
+[4.547s]       |         [01;36m[K~[m[K   
+[4.547s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[4.547s]   283 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[4.547s]       |             [01;36m[K^~~~~~~[m[K
+[4.547s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.547s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString)][m[K[m[K’:
+[4.547s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:[m[K   required from here
+[4.548s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, QMetaObject::Connection>[m[K’
+[4.548s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[4.548s]   314 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[4.548s]       |             [01;36m[K^~~~~~~[m[K
+[4.548s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.548s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[4.548s]    18 |     [01;36m[Kconnect([m[K
+[4.548s]       |     [01;36m[K~~~~~~~^[m[K
+[4.549s]    19 | [01;36m[K        &qnode,[m[K
+[4.549s]       |         [01;36m[K~~~~~~~[m[K
+[4.549s]    20 | [01;36m[K        &QNode::messageReceived,[m[K
+[4.549s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.549s]    21 | [01;36m[K        this,[m[K
+[4.549s]       |         [01;36m[K~~~~~[m[K
+[4.549s]    22 | [01;36m[K        &MainWindow::updateReceivedMessage[m[K
+[4.549s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.549s]    23 | [01;36m[K        )[m[K;
+[4.550s]       |         [01;36m[K~[m[K   
+[4.550s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[4.550s]   322 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[4.550s]       |             [01;36m[K^~~~~~~[m[K
+[4.550s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.550s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(QString); Func2 = void (MainWindow::*)(QString)][m[K[m[K’:
+[4.550s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:18:12:[m[K   required from here
+[4.550s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, QMetaObject::Connection>[m[K’
+[4.550s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)[m[K’
+[4.551s]   222 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const char *signal,
+[4.551s]       |                                    [01;36m[K^~~~~~~[m[K
+[4.551s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.551s]   222 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const char *signal,
+[4.551s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.551s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)[m[K’
+[4.551s]   225 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const QMetaMethod &signal,
+[4.551s]       |                                    [01;36m[K^~~~~~~[m[K
+[4.551s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.551s]   225 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const QMetaMethod &signal,
+[4.552s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.552s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const char*, Qt::ConnectionType) const[m[K’
+[4.552s]   481 | inline QMetaObject::Connection [01;36m[KQObject[m[K::connect(const QObject *asender, const char *asignal,
+[4.552s]       |                                [01;36m[K^~~~~~~[m[K
+[4.552s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.552s]   481 | inline QMetaObject::Connection QObject::connect([01;36m[Kconst QObject *asender[m[K, const char *asignal,
+[4.552s]       |                                                 [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.552s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainWindow::connect(QNode**, void (QNode::*)(), MainWindow*, bool (QWidget::*)())[m[K’
+[4.552s]    26 |   [01;31m[Kconnect([m[K
+[4.552s]       |   [01;31m[K~~~~~~~^[m[K
+[4.552s]    27 | [01;31m[K      &qnode,[m[K
+[4.553s]       |       [01;31m[K~~~~~~~[m[K
+[4.553s]    28 | [01;31m[K      &QNode::rosShutDown,[m[K
+[4.553s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[4.553s]    29 | [01;31m[K      this,[m[K
+[4.553s]       |       [01;31m[K~~~~~[m[K
+[4.553s]    30 | [01;31m[K      &MainWindow::close[m[K
+[4.553s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~[m[K
+[4.553s]    31 | [01;31m[K      )[m[K;
+[4.553s]       |       [01;31m[K~[m[K   
+[4.554s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)(); typename QtPrivate::FunctionPointer<Func>::Object = QNode; typename QtPrivate::FunctionPointer<Func2>::Object = QWidget][m[K[m[K’
+[4.554s]   242 |     static inline QMetaObject::Connection [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,
+[4.554s]       |                                           [01;36m[K^~~~~~~[m[K
+[4.554s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:109:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QtPrivate::FunctionPointer<void (QNode::*)()>::Object*[m[K’ {aka ‘[01m[Kconst QNode*[m[K’}
+[4.554s]   242 |     static inline QMetaObject::Connection connect([01;36m[Kconst typename QtPrivate::FunctionPointer<Func1>::Object *sender[m[K, Func1 signal,
+[4.554s]       |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.554s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[4.554s]   274 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[4.555s]       |             [01;36m[K^~~~~~~[m[K
+[4.555s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.555s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[4.555s]    26 |   [01;36m[Kconnect([m[K
+[4.555s]       |   [01;36m[K~~~~~~~^[m[K
+[4.555s]    27 | [01;36m[K      &qnode,[m[K
+[4.555s]       |       [01;36m[K~~~~~~~[m[K
+[4.555s]    28 | [01;36m[K      &QNode::rosShutDown,[m[K
+[4.555s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[4.556s]    29 | [01;36m[K      this,[m[K
+[4.556s]       |       [01;36m[K~~~~~[m[K
+[4.556s]    30 | [01;36m[K      &MainWindow::close[m[K
+[4.556s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+[4.556s]    31 | [01;36m[K      )[m[K;
+[4.556s]       |       [01;36m[K~[m[K   
+[4.556s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[4.556s]   283 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[4.556s]       |             [01;36m[K^~~~~~~[m[K
+[4.557s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.557s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)()][m[K[m[K’:
+[4.557s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:[m[K   required from here
+[4.557s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, QMetaObject::Connection>[m[K’
+[4.557s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[4.557s]   314 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[4.557s]       |             [01;36m[K^~~~~~~[m[K
+[4.557s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.557s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[4.558s]    26 |   [01;36m[Kconnect([m[K
+[4.558s]       |   [01;36m[K~~~~~~~^[m[K
+[4.558s]    27 | [01;36m[K      &qnode,[m[K
+[4.558s]       |       [01;36m[K~~~~~~~[m[K
+[4.558s]    28 | [01;36m[K      &QNode::rosShutDown,[m[K
+[4.558s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[4.558s]    29 | [01;36m[K      this,[m[K
+[4.558s]       |       [01;36m[K~~~~~[m[K
+[4.558s]    30 | [01;36m[K      &MainWindow::close[m[K
+[4.559s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+[4.559s]    31 | [01;36m[K      )[m[K;
+[4.559s]       |       [01;36m[K~[m[K   
+[4.559s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[4.559s]   322 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[4.559s]       |             [01;36m[K^~~~~~~[m[K
+[4.559s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.559s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (QNode::*)(); Func2 = bool (QWidget::*)()][m[K[m[K’:
+[4.560s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/src/main_window.cpp:26:10:[m[K   required from here
+[4.560s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, QMetaObject::Connection>[m[K’
+[4.560s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)[m[K’
+[4.560s]   222 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const char *signal,
+[4.560s]       |                                    [01;36m[K^~~~~~~[m[K
+[4.560s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.560s]   222 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const char *signal,
+[4.560s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.561s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)[m[K’
+[4.561s]   225 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const QMetaMethod &signal,
+[4.561s]       |                                    [01;36m[K^~~~~~~[m[K
+[4.561s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.561s]   225 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const QMetaMethod &signal,
+[4.561s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.561s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const char*, Qt::ConnectionType) const[m[K’
+[4.561s]   481 | inline QMetaObject::Connection [01;36m[KQObject[m[K::connect(const QObject *asender, const char *asignal,
+[4.562s]       |                                [01;36m[K^~~~~~~[m[K
+[4.562s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQNode**[m[K’ to ‘[01m[Kconst QObject*[m[K’
+[4.562s]   481 | inline QMetaObject::Connection QObject::connect([01;36m[Kconst QObject *asender[m[K, const char *asignal,
+[4.562s]       |                                                 [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.409s] gmake[2]: *** [CMakeFiles/hw3_pkg.dir/build.make:102: CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o] Error 1
+[5.409s] gmake[2]: *** Waiting for unfinished jobs....
+[9.705s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hw3_pkg.dir/all] Error 2
+[9.706s] gmake: *** [Makefile:146: all] Error 2
+[9.711s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg -- -j16 -l16

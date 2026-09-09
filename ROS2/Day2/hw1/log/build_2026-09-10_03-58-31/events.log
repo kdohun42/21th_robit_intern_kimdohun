@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000380] (hw1_pkg) JobQueued: {'identifier': 'hw1_pkg', 'dependencies': OrderedDict({'custom_interfaces': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces'})}
+[0.000431] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.007085] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.011504] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.011601] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9f12f31_d9bd_457e_939e_b5725ab49f43', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.408', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.094126] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__rs\n'}
+[0.094479] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target custom_interfaces__rosidl_generator_type_description\n'}
+[0.099363] (-) TimerEvent: {}
+[0.112364] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[0.132838] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__cpp\n'}
+[0.133125] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_generator_c\n'}
+[0.164509] (custom_interfaces) StdoutLine: {'line': b'[ 45%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.164810] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.164899] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[0.181417] (custom_interfaces) StdoutLine: {'line': b'[ 57%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.189944] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.198835] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.199427] (-) TimerEvent: {}
+[0.238564] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces\n'}
+[0.271104] (custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target custom_interfaces__py\n'}
+[0.278134] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.286041] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[0.286225] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[0.286319] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[0.299610] (-) TimerEvent: {}
+[0.302708] (custom_interfaces) StdoutLine: {'line': b'[ 82%] Built target custom_interfaces__rosidl_generator_py\n'}
+[0.308726] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.309020] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.338149] (custom_interfaces) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[0.342665] (custom_interfaces) StdoutLine: {'line': b'[ 88%] Built target custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.343333] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.343557] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces_s__rosidl_typesupport_c\n'}
+[0.365214] (custom_interfaces) CommandEnded: {'returncode': 0}
+[0.366571] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[0.383867] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9f12f31_d9bd_457e_939e_b5725ab49f43', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.408', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.399802] (-) TimerEvent: {}
+[0.400539] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.401011] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[0.401108] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.json\n'}
+[0.401456] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.401654] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.401737] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.h\n'}
+[0.401817] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.401892] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.401960] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.h\n'}
+[0.402027] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.c\n'}
+[0.402112] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.h\n'}
+[0.402185] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c\n'}
+[0.402251] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__description.c\n'}
+[0.402365] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.h\n'}
+[0.402430] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[0.402496] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[0.402561] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[0.402689] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.402755] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.402814] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.402883] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.402951] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_c.h\n'}
+[0.403017] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.403080] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.403144] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.403210] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.403278] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.403352] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h\n'}
+[0.403415] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c\n'}
+[0.403479] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.403661] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[0.403863] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.403997] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.404072] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.404143] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.hpp\n'}
+[0.404213] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.404282] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.hpp\n'}
+[0.404360] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__traits.hpp\n'}
+[0.404425] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__builder.hpp\n'}
+[0.404490] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.hpp\n'}
+[0.404554] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.404618] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.404717] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.404779] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.404840] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[0.404906] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.404974] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.405041] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.405107] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.405173] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.405268] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.cpp\n'}
+[0.405339] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.405403] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.405464] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.405523] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[0.405584] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[0.405660] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info\n'}
+[0.405722] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.405781] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.405841] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.405901] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.405961] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces\n'}
+[0.406068] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.406130] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.406189] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py\n'}
+[0.406246] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg\n'}
+[0.406317] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py\n'}
+[0.406377] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_my_message_s.c\n'}
+[0.406437] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_my_message.py\n'}
+[0.406493] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.406547] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.406601] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.406656] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.447970] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces'...\n"}
+[0.448179] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg'...\n"}
+[0.452489] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.452937] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.453598] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.454155] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[0.454412] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/ament_index/resource_index/rust_packages/custom_interfaces\n'}
+[0.454794] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust\n'}
+[0.454918] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/src\n'}
+[0.454992] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/src/msg.rs\n'}
+[0.455142] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/src/msg\n'}
+[0.455212] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/src/msg/rmw.rs\n'}
+[0.455279] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/src/lib.rs\n'}
+[0.455420] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/Cargo.toml\n'}
+[0.455489] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/rust/build.rs\n'}
+[0.455554] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.idl\n'}
+[0.455621] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.msg\n'}
+[0.455685] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[0.455777] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[0.455844] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[0.455910] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.455975] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[0.456040] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[0.456105] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[0.456169] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[0.456234] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[0.456304] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[0.456372] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[0.456436] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[0.456574] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.456661] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.456749] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.456813] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.456883] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.456948] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.457012] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.457075] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.457138] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.457252] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.457329] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.457387] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.457450] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.457538] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.457603] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.457667] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.457729] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.457813] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.457916] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.457977] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.458057] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.458112] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.458203] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.458261] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.458333] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.458397] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[0.458459] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[0.458545] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[0.462527] (custom_interfaces) CommandEnded: {'returncode': 0}
+[0.493175] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[0.493867] (hw1_pkg) JobStarted: {'identifier': 'hw1_pkg'}
+[0.500026] (-) TimerEvent: {}
+[0.506257] (hw1_pkg) JobProgress: {'identifier': 'hw1_pkg', 'progress': 'cmake'}
+[0.508291] (hw1_pkg) JobProgress: {'identifier': 'hw1_pkg', 'progress': 'build'}
+[0.508368] (hw1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9f12f31_d9bd_457e_939e_b5725ab49f43', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.408', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.553511] (hw1_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600233] (-) TimerEvent: {}
+[0.700694] (-) TimerEvent: {}
+[0.793808] (hw1_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.800883] (-) TimerEvent: {}
+[0.821138] (hw1_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.826679] (hw1_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.833848] (hw1_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.842277] (hw1_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.895140] (hw1_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.895844] (hw1_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901116] (-) TimerEvent: {}
+[0.977316] (hw1_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001277] (-) TimerEvent: {}
+[1.046649] (hw1_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.053194] (hw1_pkg) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[1.059181] (hw1_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.101516] (-) TimerEvent: {}
+[1.152048] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.153118] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.153515] (hw1_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/include\n'}
+[1.153704] (hw1_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.154270] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.154491] (hw1_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.154959] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.155767] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.156005] (hw1_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.156268] (hw1_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.157170] (hw1_pkg) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[1.170051] (hw1_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.172866] (hw1_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/hw1_pkg\n'}
+[1.201657] (-) TimerEvent: {}
+[1.245947] (hw1_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.249810] (hw1_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.301771] (-) TimerEvent: {}
+[1.396188] (hw1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[1.396584] (hw1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/hw1_pkg/include/hw1_pkg/publisher.hpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/my_message.hpp: No such file or directory\n'}
+[1.396704] (hw1_pkg) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"std_msgs/msg/my_message.hpp"\x1b[m\x1b[K\n'}
+[1.396801] (hw1_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.396891] (hw1_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.401955] (-) TimerEvent: {}
+[1.406492] (hw1_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[1.407015] (hw1_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2\n'}
+[1.407248] (hw1_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.502206] (-) TimerEvent: {}
+[1.602746] (-) TimerEvent: {}
+[1.703369] (-) TimerEvent: {}
+[1.804012] (-) TimerEvent: {}
+[1.904634] (-) TimerEvent: {}
+[2.005286] (-) TimerEvent: {}
+[2.105936] (-) TimerEvent: {}
+[2.206545] (-) TimerEvent: {}
+[2.307176] (-) TimerEvent: {}
+[2.407893] (-) TimerEvent: {}
+[2.508471] (-) TimerEvent: {}
+[2.609079] (-) TimerEvent: {}
+[2.709697] (-) TimerEvent: {}
+[2.810329] (-) TimerEvent: {}
+[2.910982] (-) TimerEvent: {}
+[3.011603] (-) TimerEvent: {}
+[3.112203] (-) TimerEvent: {}
+[3.212818] (-) TimerEvent: {}
+[3.313449] (-) TimerEvent: {}
+[3.414039] (-) TimerEvent: {}
+[3.514665] (-) TimerEvent: {}
+[3.615256] (-) TimerEvent: {}
+[3.715846] (-) TimerEvent: {}
+[3.816496] (-) TimerEvent: {}
+[3.917140] (-) TimerEvent: {}
+[4.017796] (-) TimerEvent: {}
+[4.118415] (-) TimerEvent: {}
+[4.219052] (-) TimerEvent: {}
+[4.319691] (-) TimerEvent: {}
+[4.420334] (-) TimerEvent: {}
+[4.520953] (-) TimerEvent: {}
+[4.621549] (-) TimerEvent: {}
+[4.722161] (-) TimerEvent: {}
+[4.822785] (-) TimerEvent: {}
+[4.923413] (-) TimerEvent: {}
+[5.024012] (-) TimerEvent: {}
+[5.124631] (-) TimerEvent: {}
+[5.225220] (-) TimerEvent: {}
+[5.325852] (-) TimerEvent: {}
+[5.426468] (-) TimerEvent: {}
+[5.527053] (-) TimerEvent: {}
+[5.627698] (-) TimerEvent: {}
+[5.728389] (-) TimerEvent: {}
+[5.828984] (-) TimerEvent: {}
+[5.929588] (-) TimerEvent: {}
+[6.030171] (-) TimerEvent: {}
+[6.130752] (-) TimerEvent: {}
+[6.231345] (-) TimerEvent: {}
+[6.331823] (-) TimerEvent: {}
+[6.432411] (-) TimerEvent: {}
+[6.532977] (-) TimerEvent: {}
+[6.633549] (-) TimerEvent: {}
+[6.734114] (-) TimerEvent: {}
+[6.834698] (-) TimerEvent: {}
+[6.935197] (-) TimerEvent: {}
+[7.035767] (-) TimerEvent: {}
+[7.136343] (-) TimerEvent: {}
+[7.236909] (-) TimerEvent: {}
+[7.337464] (-) TimerEvent: {}
+[7.437931] (-) TimerEvent: {}
+[7.538420] (-) TimerEvent: {}
+[7.638920] (-) TimerEvent: {}
+[7.739490] (-) TimerEvent: {}
+[7.840097] (-) TimerEvent: {}
+[7.940640] (-) TimerEvent: {}
+[8.041166] (-) TimerEvent: {}
+[8.141728] (-) TimerEvent: {}
+[8.242305] (-) TimerEvent: {}
+[8.342875] (-) TimerEvent: {}
+[8.443469] (-) TimerEvent: {}
+[8.544081] (-) TimerEvent: {}
+[8.549734] (hw1_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[8.644362] (-) TimerEvent: {}
+[8.744964] (-) TimerEvent: {}
+[8.845529] (-) TimerEvent: {}
+[8.898640] (hw1_pkg) StdoutLine: {'line': b'[ 75%] Built target subscriber\n'}
+[8.900792] (hw1_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.904690] (hw1_pkg) CommandEnded: {'returncode': 2}
+[8.918792] (hw1_pkg) JobEnded: {'identifier': 'hw1_pkg', 'rc': 2}
+[8.929391] (-) EventReactorShutdown: {}

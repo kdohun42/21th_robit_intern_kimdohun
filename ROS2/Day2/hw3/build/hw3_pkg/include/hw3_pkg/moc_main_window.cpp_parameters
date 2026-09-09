@@ -1,0 +1,5 @@
+-I/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg
+-I/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg
+-o
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/build/hw3_pkg/include/hw3_pkg/moc_main_window.cpp
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/include/hw3_pkg/main_window.hpp

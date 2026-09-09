@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (hw3_pkg) JobQueued: {'identifier': 'hw3_pkg', 'dependencies': OrderedDict()}
+[0.000421] (hw3_pkg) JobStarted: {'identifier': 'hw3_pkg'}
+[0.007234] (hw3_pkg) JobProgress: {'identifier': 'hw3_pkg', 'progress': 'cmake'}
+[0.008731] (hw3_pkg) JobProgress: {'identifier': 'hw3_pkg', 'progress': 'build'}
+[0.008873] (hw3_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1da26f5b_1b4d_4311_afb9_e9ffd87be0d1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.086889] (hw3_pkg) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[0.087366] (hw3_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating include/hw3_pkg/moc_main_window.cpp\x1b[0m\n'}
+[0.099375] (-) TimerEvent: {}
+[0.148472] (hw3_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main.cpp.o\x1b[0m\n'}
+[0.148894] (hw3_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/main_window.cpp.o\x1b[0m\n'}
+[0.149833] (hw3_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.150434] (hw3_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hw3_pkg.dir/include/hw3_pkg/moc_main_window.cpp.o\x1b[0m\n'}
+[0.199528] (-) TimerEvent: {}
+[0.300061] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.501384] (-) TimerEvent: {}
+[0.602004] (-) TimerEvent: {}
+[0.702676] (-) TimerEvent: {}
+[0.803341] (-) TimerEvent: {}
+[0.903963] (-) TimerEvent: {}
+[1.004515] (-) TimerEvent: {}
+[1.105163] (-) TimerEvent: {}
+[1.205860] (-) TimerEvent: {}
+[1.306502] (-) TimerEvent: {}
+[1.407047] (-) TimerEvent: {}
+[1.507710] (-) TimerEvent: {}
+[1.608368] (-) TimerEvent: {}
+[1.709017] (-) TimerEvent: {}
+[1.809703] (-) TimerEvent: {}
+[1.910439] (-) TimerEvent: {}
+[2.011050] (-) TimerEvent: {}
+[2.111723] (-) TimerEvent: {}
+[2.212354] (-) TimerEvent: {}
+[2.312972] (-) TimerEvent: {}
+[2.413647] (-) TimerEvent: {}
+[2.514269] (-) TimerEvent: {}
+[2.614915] (-) TimerEvent: {}
+[2.715563] (-) TimerEvent: {}
+[2.816183] (-) TimerEvent: {}
+[2.916720] (-) TimerEvent: {}
+[3.017360] (-) TimerEvent: {}
+[3.117996] (-) TimerEvent: {}
+[3.218640] (-) TimerEvent: {}
+[3.319286] (-) TimerEvent: {}
+[3.419912] (-) TimerEvent: {}
+[3.520523] (-) TimerEvent: {}
+[3.621053] (-) TimerEvent: {}
+[3.721662] (-) TimerEvent: {}
+[3.822253] (-) TimerEvent: {}
+[3.922843] (-) TimerEvent: {}
+[4.023200] (-) TimerEvent: {}
+[4.123582] (-) TimerEvent: {}
+[4.223919] (-) TimerEvent: {}
+[4.324344] (-) TimerEvent: {}
+[4.424804] (-) TimerEvent: {}
+[4.525247] (-) TimerEvent: {}
+[4.625860] (-) TimerEvent: {}
+[4.726366] (-) TimerEvent: {}
+[4.826682] (-) TimerEvent: {}
+[4.926981] (-) TimerEvent: {}
+[5.027335] (-) TimerEvent: {}
+[5.127688] (-) TimerEvent: {}
+[5.228086] (-) TimerEvent: {}
+[5.328411] (-) TimerEvent: {}
+[5.428808] (-) TimerEvent: {}
+[5.529109] (-) TimerEvent: {}
+[5.629455] (-) TimerEvent: {}
+[5.729834] (-) TimerEvent: {}
+[5.830184] (-) TimerEvent: {}
+[5.930568] (-) TimerEvent: {}
+[6.030875] (-) TimerEvent: {}
+[6.131174] (-) TimerEvent: {}
+[6.231521] (-) TimerEvent: {}
+[6.331857] (-) TimerEvent: {}
+[6.432160] (-) TimerEvent: {}
+[6.532472] (-) TimerEvent: {}
+[6.632776] (-) TimerEvent: {}
+[6.733087] (-) TimerEvent: {}
+[6.833370] (-) TimerEvent: {}
+[6.933679] (-) TimerEvent: {}
+[7.034053] (-) TimerEvent: {}
+[7.134470] (-) TimerEvent: {}
+[7.234903] (-) TimerEvent: {}
+[7.335380] (-) TimerEvent: {}
+[7.435755] (-) TimerEvent: {}
+[7.536319] (-) TimerEvent: {}
+[7.636825] (-) TimerEvent: {}
+[7.737244] (-) TimerEvent: {}
+[7.837555] (-) TimerEvent: {}
+[7.937885] (-) TimerEvent: {}
+[8.038220] (-) TimerEvent: {}
+[8.112323] (hw3_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable hw3_pkg\x1b[0m\n'}
+[8.138355] (-) TimerEvent: {}
+[8.238764] (-) TimerEvent: {}
+[8.339099] (-) TimerEvent: {}
+[8.439419] (-) TimerEvent: {}
+[8.539746] (-) TimerEvent: {}
+[8.640081] (-) TimerEvent: {}
+[8.740419] (-) TimerEvent: {}
+[8.840739] (-) TimerEvent: {}
+[8.941072] (-) TimerEvent: {}
+[9.041433] (-) TimerEvent: {}
+[9.141825] (-) TimerEvent: {}
+[9.205861] (hw3_pkg) StdoutLine: {'line': b'[100%] Built target hw3_pkg\n'}
+[9.225257] (hw3_pkg) CommandEnded: {'returncode': 0}
+[9.226174] (hw3_pkg) JobProgress: {'identifier': 'hw3_pkg', 'progress': 'install'}
+[9.242175] (-) TimerEvent: {}
+[9.243635] (hw3_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2307', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2307,unix/kdh:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1da26f5b_1b4d_4311_afb9_e9ffd87be0d1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C27RV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/build/hw3_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=327fb818dda03f4c3b3c64926aa12f03', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.256672] (hw3_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.257846] (hw3_pkg) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/lib/hw3_pkg/hw3_pkg\n'}
+[9.265212] (hw3_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/lib/hw3_pkg/hw3_pkg" to ""\n'}
+[9.265505] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/package_run_dependencies/hw3_pkg\n'}
+[9.265653] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/parent_prefix_path/hw3_pkg\n'}
+[9.266030] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/ament_prefix_path.sh\n'}
+[9.266264] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/ament_prefix_path.dsv\n'}
+[9.266687] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/path.sh\n'}
+[9.266851] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/environment/path.dsv\n'}
+[9.266975] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.bash\n'}
+[9.267092] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.sh\n'}
+[9.267208] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.zsh\n'}
+[9.267340] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/local_setup.dsv\n'}
+[9.267460] (hw3_pkg) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/package.dsv\n'}
+[9.267589] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/ament_index/resource_index/packages/hw3_pkg\n'}
+[9.267703] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/cmake/hw3_pkgConfig.cmake\n'}
+[9.267817] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/cmake/hw3_pkgConfig-version.cmake\n'}
+[9.267927] (hw3_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw3/hw3_pkg/install/hw3_pkg/share/hw3_pkg/package.xml\n'}
+[9.269056] (hw3_pkg) CommandEnded: {'returncode': 0}
+[9.288040] (hw3_pkg) JobEnded: {'identifier': 'hw3_pkg', 'rc': 0}
+[9.289274] (-) EventReactorShutdown: {}

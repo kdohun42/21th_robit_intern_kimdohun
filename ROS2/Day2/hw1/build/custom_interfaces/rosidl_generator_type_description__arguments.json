@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces/rosidl_generator_type_description/custom_interfaces",
+  "idl_tuples": [
+    "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/MyMessage.idl"
+  ]
+}

@@ -1,0 +1,24 @@
+[ 50%] Built target subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/publisher
+-- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/publisher" to ""
+-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/subscriber
+-- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/subscriber" to ""
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/package_run_dependencies/hw1_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/parent_prefix_path/hw1_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/path.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/path.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.bash
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.zsh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.dsv
+-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/package.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/packages/hw1_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/cmake/hw1_pkgConfig.cmake
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/cmake/hw1_pkgConfig-version.cmake
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/package.xml

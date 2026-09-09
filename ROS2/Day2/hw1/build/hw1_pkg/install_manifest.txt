@@ -1,0 +1,17 @@
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/publisher
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/lib/hw1_pkg/subscriber
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/package_run_dependencies/hw1_pkg
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/parent_prefix_path/hw1_pkg
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/ament_prefix_path.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/ament_prefix_path.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/path.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/environment/path.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.bash
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.zsh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/local_setup.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/package.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/ament_index/resource_index/packages/hw1_pkg
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/cmake/hw1_pkgConfig.cmake
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/cmake/hw1_pkgConfig-version.cmake
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw1/install/hw1_pkg/share/hw1_pkg/package.xml
