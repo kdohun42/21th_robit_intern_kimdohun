@@ -1,0 +1,6 @@
+[0.055s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/build/hw2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/build/hw2_package -- -j16 -l16
+[0.098s] [0mCMake Error: The current CMakeCache.txt directory /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/build/hw2_package/CMakeCache.txt is different than the directory /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.176s] [0mCMake Error: The source directory "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/hw2_package" does not exist.
+[0.176s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.182s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.193s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/build/hw2_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/build/hw2_package -- -j16 -l16

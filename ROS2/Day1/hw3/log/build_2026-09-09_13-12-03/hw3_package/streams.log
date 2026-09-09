@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/hw3_package -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package
+[0.038s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.395s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.440s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.453s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.828s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.845s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.865s] -- Found turtlesim: 1.8.4 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.923s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.076s] -- Configured cppcheck include dirs: 
+[1.076s] -- Configured cppcheck exclude dirs and/or files: 
+[1.076s] -- Added test 'lint_cmake' to check CMake code style
+[1.077s] -- Added test 'uncrustify' to check C / C++ code style
+[1.078s] -- Configured uncrustify additional arguments: 
+[1.078s] -- Added test 'xmllint' to check XML markup files
+[1.080s] -- Configuring done (1.0s)
+[1.095s] -- Generating done (0.0s)
+[1.100s] -- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package
+[1.113s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/hw3_package -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package
+[1.116s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16
+[1.212s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o[0m
+[6.566s] [100%] [32m[1mLinking CXX executable my_cpp_node[0m
+[6.906s] [100%] Built target my_cpp_node
+[6.929s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16
+[6.950s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package
+[6.967s] -- Install configuration: ""
+[6.968s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/lib/hw3_package/my_cpp_node
+[6.970s] -- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/lib/hw3_package/my_cpp_node" to ""
+[6.971s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/package_run_dependencies/hw3_package
+[6.972s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/parent_prefix_path/hw3_package
+[6.972s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/ament_prefix_path.sh
+[6.972s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/ament_prefix_path.dsv
+[6.972s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/path.sh
+[6.973s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/path.dsv
+[6.973s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.bash
+[6.973s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.sh
+[6.973s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.zsh
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.dsv
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/package.dsv
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/packages/hw3_package
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/cmake/hw3_packageConfig.cmake
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/cmake/hw3_packageConfig-version.cmake
+[6.974s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/package.xml
+[6.977s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package

@@ -1,0 +1,17 @@
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/hw2_package/publisher
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/hw2_package/subscriber
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/package_run_dependencies/hw2_package
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/parent_prefix_path/hw2_package
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/ament_prefix_path.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/ament_prefix_path.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/path.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/path.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.bash
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.sh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.zsh
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.dsv
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/packages/hw2_package
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/cmake/hw2_packageConfig.cmake
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/cmake/hw2_packageConfig-version.cmake
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.xml

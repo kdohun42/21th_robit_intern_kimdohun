@@ -1,0 +1,28 @@
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:74:47:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   74 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtrpublisher_string_[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:76:46:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   76 |     rclcpp::Publisher<std_msgs::msg::Int32>::[01;31m[KSharedPtrpublisher_int32_[m[K;
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+   20 |         [01;31m[Kpublisher_string_[m[K = this->create_publisher<std_msgs::msg::String>( "topic_string", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_bool_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+   22 |         [01;31m[Kpublisher_int32_[m[K = this->create_publisher<std_msgs::msg::Int32>( "topic_int32", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_float32_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+   64 |         [01;31m[Kpublisher_string_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_bool_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+   65 |         [01;31m[Kpublisher_int32_[m[K->publish(message2);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_float32_[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

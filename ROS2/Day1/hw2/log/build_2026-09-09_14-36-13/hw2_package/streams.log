@@ -1,0 +1,72 @@
+[0.015s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package
+[0.104s] -- The C compiler identification is GNU 13.3.0
+[0.199s] -- The CXX compiler identification is GNU 13.3.0
+[0.230s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.649s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.099s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.160s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.178s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.315s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.317s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.432s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.472s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.644s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.661s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.807s] -- Configured cppcheck include dirs: 
+[1.807s] -- Configured cppcheck exclude dirs and/or files: 
+[1.807s] -- Added test 'lint_cmake' to check CMake code style
+[1.809s] -- Added test 'uncrustify' to check C / C++ code style
+[1.809s] -- Configured uncrustify additional arguments: 
+[1.809s] -- Added test 'xmllint' to check XML markup files
+[1.810s] -- Configuring done (1.8s)
+[1.823s] -- Generating done (0.0s)
+[1.828s] -- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package
+[1.842s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package -DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package
+[1.844s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package -- -j16 -l16
+[1.931s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[1.931s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[4.110s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:74:47:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+[4.110s]    74 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtrpublisher_string_[m[K;
+[4.110s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.112s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:76:46:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+[4.112s]    76 |     rclcpp::Publisher<std_msgs::msg::Int32>::[01;31m[KSharedPtrpublisher_int32_[m[K;
+[4.112s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.133s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[4.133s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+[4.133s]    20 |         [01;31m[Kpublisher_string_[m[K = this->create_publisher<std_msgs::msg::String>( "topic_string", 10);
+[4.133s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.133s]       |         [32m[Kpublisher_bool_[m[K
+[4.145s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+[4.145s]    22 |         [01;31m[Kpublisher_int32_[m[K = this->create_publisher<std_msgs::msg::Int32>( "topic_int32", 10);
+[4.145s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.146s]       |         [32m[Kpublisher_float32_[m[K
+[4.169s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[4.169s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+[4.169s]    64 |         [01;31m[Kpublisher_string_[m[K->publish(message);
+[4.169s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.169s]       |         [32m[Kpublisher_bool_[m[K
+[4.177s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+[4.177s]    65 |         [01;31m[Kpublisher_int32_[m[K->publish(message2);
+[4.177s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.177s]       |         [32m[Kpublisher_float32_[m[K
+[6.238s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[6.238s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+[6.239s] gmake[1]: *** Waiting for unfinished jobs....
+[16.668s] [ 75%] [32m[1mLinking CXX executable subscriber[0m
+[17.252s] [ 75%] Built target subscriber
+[17.254s] gmake: *** [Makefile:146: all] Error 2
+[17.258s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package -- -j16 -l16

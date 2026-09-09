@@ -1,0 +1,25 @@
+[0.070s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16
+[0.325s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o[0m
+[48.149s] [100%] [32m[1mLinking CXX executable my_cpp_node[0m
+[50.386s] [100%] Built target my_cpp_node
+[50.448s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16
+[50.502s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package
+[50.546s] -- Install configuration: ""
+[50.547s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/lib/hw3_package/my_cpp_node
+[50.577s] -- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/lib/hw3_package/my_cpp_node" to ""
+[50.579s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/package_run_dependencies/hw3_package
+[50.580s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/parent_prefix_path/hw3_package
+[50.580s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/ament_prefix_path.sh
+[50.582s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/ament_prefix_path.dsv
+[50.582s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/path.sh
+[50.583s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/environment/path.dsv
+[50.583s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.bash
+[50.583s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.sh
+[50.584s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.zsh
+[50.584s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/local_setup.dsv
+[50.585s] -- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/package.dsv
+[50.585s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/ament_index/resource_index/packages/hw3_package
+[50.586s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/cmake/hw3_packageConfig.cmake
+[50.586s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/cmake/hw3_packageConfig-version.cmake
+[50.588s] -- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/install/hw3_package/share/hw3_package/package.xml
+[50.593s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package

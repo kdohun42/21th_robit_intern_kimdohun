@@ -1,0 +1,4 @@
+source;share/hw3_package/local_setup.bash
+source;share/hw3_package/local_setup.dsv
+source;share/hw3_package/local_setup.sh
+source;share/hw3_package/local_setup.zsh

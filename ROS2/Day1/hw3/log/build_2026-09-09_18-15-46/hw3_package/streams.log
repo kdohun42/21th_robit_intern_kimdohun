@@ -1,0 +1,10 @@
+[0.061s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16
+[0.406s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o[0m
+[0.454s] [01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/hw3_package/src/my_cpp_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_cpp_node.hpp: No such file or directory
+[0.455s]     1 | #include [01;31m[K"my_cpp_node.hpp"[m[K
+[0.455s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.456s] compilation terminated.
+[0.458s] gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:76: CMakeFiles/my_cpp_node.dir/src/my_cpp_node.cpp.o] Error 1
+[0.460s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_cpp_node.dir/all] Error 2
+[0.461s] gmake: *** [Makefile:146: all] Error 2
+[0.473s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw3/build/hw3_package -- -j16 -l16

@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.011888] (hw2_package) JobQueued: {'identifier': 'hw2_package', 'dependencies': OrderedDict()}
+[0.012208] (hw2_py_package) JobQueued: {'identifier': 'hw2_py_package', 'dependencies': OrderedDict()}
+[0.012343] (hw2_package) JobStarted: {'identifier': 'hw2_package'}
+[0.039452] (hw2_py_package) JobStarted: {'identifier': 'hw2_py_package'}
+[0.072780] (hw2_package) JobProgress: {'identifier': 'hw2_package', 'progress': 'cmake'}
+[0.079101] (hw2_package) JobProgress: {'identifier': 'hw2_package', 'progress': 'build'}
+[0.079483] (hw2_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2297', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2297,unix/kdh:/tmp/.ICE-unix/2297', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5d1a6ccc_87a0_4b61_9174_8aa2ce96c4cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PSKRV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100369] (-) TimerEvent: {}
+[0.201456] (-) TimerEvent: {}
+[0.302665] (-) TimerEvent: {}
+[0.403820] (-) TimerEvent: {}
+[0.411932] (hw2_package) StdoutLine: {'line': b'[ 50%] Built target publisher\n'}
+[0.504067] (-) TimerEvent: {}
+[0.576903] (hw2_package) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[0.604531] (-) TimerEvent: {}
+[0.705691] (-) TimerEvent: {}
+[0.806841] (-) TimerEvent: {}
+[0.907971] (-) TimerEvent: {}
+[1.009880] (-) TimerEvent: {}
+[1.110940] (-) TimerEvent: {}
+[1.212086] (-) TimerEvent: {}
+[1.313103] (-) TimerEvent: {}
+[1.338684] (hw2_package) CommandEnded: {'returncode': 0}
+[1.341819] (hw2_package) JobProgress: {'identifier': 'hw2_package', 'progress': 'install'}
+[1.389601] (hw2_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2297', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2297,unix/kdh:/tmp/.ICE-unix/2297', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5d1a6ccc_87a0_4b61_9174_8aa2ce96c4cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PSKRV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.413544] (-) TimerEvent: {}
+[1.431889] (hw2_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.433778] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/hw2_package/publisher\n'}
+[1.435131] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/hw2_package/subscriber\n'}
+[1.436000] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/package_run_dependencies/hw2_package\n'}
+[1.436512] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/parent_prefix_path/hw2_package\n'}
+[1.438920] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/ament_prefix_path.sh\n'}
+[1.439489] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/ament_prefix_path.dsv\n'}
+[1.439947] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/path.sh\n'}
+[1.440298] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/environment/path.dsv\n'}
+[1.440709] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.bash\n'}
+[1.441058] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.sh\n'}
+[1.441430] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.zsh\n'}
+[1.441794] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/local_setup.dsv\n'}
+[1.442131] (hw2_package) StdoutLine: {'line': b'-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.dsv\n'}
+[1.442501] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/ament_index/resource_index/packages/hw2_package\n'}
+[1.442863] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/cmake/hw2_packageConfig.cmake\n'}
+[1.443205] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/cmake/hw2_packageConfig-version.cmake\n'}
+[1.446978] (hw2_package) StdoutLine: {'line': b'-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.xml\n'}
+[1.450534] (hw2_package) CommandEnded: {'returncode': 0}
+[1.513787] (-) TimerEvent: {}
+[1.540454] (hw2_package) JobEnded: {'identifier': 'hw2_package', 'rc': 0}
+[1.614056] (-) TimerEvent: {}
+[1.714985] (-) TimerEvent: {}
+[1.816014] (-) TimerEvent: {}
+[1.920080] (-) TimerEvent: {}
+[2.021103] (-) TimerEvent: {}
+[2.122101] (-) TimerEvent: {}
+[2.223035] (-) TimerEvent: {}
+[2.323970] (-) TimerEvent: {}
+[2.424898] (-) TimerEvent: {}
+[2.535085] (-) TimerEvent: {}
+[2.636029] (-) TimerEvent: {}
+[2.736970] (-) TimerEvent: {}
+[2.837937] (-) TimerEvent: {}
+[2.938905] (-) TimerEvent: {}
+[3.039981] (-) TimerEvent: {}
+[3.141093] (-) TimerEvent: {}
+[3.242221] (-) TimerEvent: {}
+[3.343240] (-) TimerEvent: {}
+[3.444261] (-) TimerEvent: {}
+[3.545442] (-) TimerEvent: {}
+[3.646400] (-) TimerEvent: {}
+[3.747320] (-) TimerEvent: {}
+[3.848282] (-) TimerEvent: {}
+[3.949252] (-) TimerEvent: {}
+[4.050709] (-) TimerEvent: {}
+[4.151762] (-) TimerEvent: {}
+[4.211240] (hw2_py_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hw2_py_package', 'build', '--build-base', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build', 'install', '--record', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log', '--install-scripts', '$base/lib/hw2_py_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2297', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2297,unix/kdh:/tmp/.ICE-unix/2297', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5d1a6ccc_87a0_4b61_9174_8aa2ce96c4cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PSKRV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5a67fbc9edbfeef8739d86696aa11f61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.252098] (-) TimerEvent: {}
+[4.353117] (-) TimerEvent: {}
+[4.454048] (-) TimerEvent: {}
+[4.555009] (-) TimerEvent: {}
+[4.656004] (-) TimerEvent: {}
+[4.757193] (-) TimerEvent: {}
+[4.858554] (-) TimerEvent: {}
+[4.959754] (-) TimerEvent: {}
+[5.060758] (-) TimerEvent: {}
+[5.161841] (-) TimerEvent: {}
+[5.264711] (-) TimerEvent: {}
+[5.365903] (-) TimerEvent: {}
+[5.467185] (-) TimerEvent: {}
+[5.568659] (-) TimerEvent: {}
+[5.661916] (hw2_py_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.668797] (-) TimerEvent: {}
+[5.752758] (hw2_py_package) StdoutLine: {'line': b'writing ../../build/hw2_py_package/hw2_py_package.egg-info/PKG-INFO\n'}
+[5.754296] (hw2_py_package) StdoutLine: {'line': b'writing dependency_links to ../../build/hw2_py_package/hw2_py_package.egg-info/dependency_links.txt\n'}
+[5.755462] (hw2_py_package) StdoutLine: {'line': b'writing entry points to ../../build/hw2_py_package/hw2_py_package.egg-info/entry_points.txt\n'}
+[5.755945] (hw2_py_package) StdoutLine: {'line': b'writing requirements to ../../build/hw2_py_package/hw2_py_package.egg-info/requires.txt\n'}
+[5.756849] (hw2_py_package) StdoutLine: {'line': b'writing top-level names to ../../build/hw2_py_package/hw2_py_package.egg-info/top_level.txt\n'}
+[5.769173] (-) TimerEvent: {}
+[5.870133] (-) TimerEvent: {}
+[5.942323] (hw2_py_package) StdoutLine: {'line': b"reading manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'\n"}
+[5.946491] (hw2_py_package) StdoutLine: {'line': b"writing manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'\n"}
+[5.947739] (hw2_py_package) StdoutLine: {'line': b'running build\n'}
+[5.948514] (hw2_py_package) StdoutLine: {'line': b'running build_py\n'}
+[5.949435] (hw2_py_package) StdoutLine: {'line': b'running install\n'}
+[5.970410] (-) TimerEvent: {}
+[5.982689] (hw2_py_package) StdoutLine: {'line': b'running install_lib\n'}
+[6.075640] (-) TimerEvent: {}
+[6.082633] (hw2_py_package) StdoutLine: {'line': b'running install_data\n'}
+[6.083616] (hw2_py_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.176022] (-) TimerEvent: {}
+[6.179613] (hw2_py_package) StdoutLine: {'line': b"removing '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.181031] (hw2_py_package) StdoutLine: {'line': b'Copying ../../build/hw2_py_package/hw2_py_package.egg-info to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package-0.0.0-py3.12.egg-info\n'}
+[6.184362] (hw2_py_package) StdoutLine: {'line': b'running install_scripts\n'}
+[6.276544] (-) TimerEvent: {}
+[6.377685] (-) TimerEvent: {}
+[6.478603] (-) TimerEvent: {}
+[6.579590] (-) TimerEvent: {}
+[6.680488] (-) TimerEvent: {}
+[6.781350] (-) TimerEvent: {}
+[6.834268] (hw2_py_package) StdoutLine: {'line': b'Installing publisher script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package\n'}
+[6.835469] (hw2_py_package) StdoutLine: {'line': b'Installing subscriber script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package\n'}
+[6.836675] (hw2_py_package) StdoutLine: {'line': b"writing list of installed files to '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log'\n"}
+[6.881774] (-) TimerEvent: {}
+[6.972296] (hw2_py_package) CommandEnded: {'returncode': 0}
+[6.988776] (-) TimerEvent: {}
+[7.015272] (hw2_py_package) JobEnded: {'identifier': 'hw2_py_package', 'rc': 0}
+[7.019817] (-) EventReactorShutdown: {}

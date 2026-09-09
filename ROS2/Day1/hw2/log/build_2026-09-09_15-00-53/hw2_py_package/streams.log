@@ -1,0 +1,22 @@
+[0.828s] Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_py_package build --build-base /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build install --record /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log --install-scripts $base/lib/hw2_py_package --single-version-externally-managed install_data
+[1.118s] running egg_info
+[1.133s] writing ../../build/hw2_py_package/hw2_py_package.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../../build/hw2_py_package/hw2_py_package.egg-info/dependency_links.txt
+[1.134s] writing entry points to ../../build/hw2_py_package/hw2_py_package.egg-info/entry_points.txt
+[1.134s] writing requirements to ../../build/hw2_py_package/hw2_py_package.egg-info/requires.txt
+[1.134s] writing top-level names to ../../build/hw2_py_package/hw2_py_package.egg-info/top_level.txt
+[1.165s] reading manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'
+[1.166s] writing manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'
+[1.166s] running build
+[1.166s] running build_py
+[1.167s] running install
+[1.172s] running install_lib
+[1.189s] running install_data
+[1.189s] running install_egg_info
+[1.206s] removing '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.207s] Copying ../../build/hw2_py_package/hw2_py_package.egg-info to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package-0.0.0-py3.12.egg-info
+[1.207s] running install_scripts
+[1.320s] Installing publisher script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package
+[1.321s] Installing subscriber script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package
+[1.321s] writing list of installed files to '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log'
+[1.351s] Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_py_package build --build-base /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build install --record /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log --install-scripts $base/lib/hw2_py_package --single-version-externally-managed install_data

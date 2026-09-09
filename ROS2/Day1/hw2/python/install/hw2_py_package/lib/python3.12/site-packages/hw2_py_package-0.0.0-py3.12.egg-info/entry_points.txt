@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = hw2_py_package.publisher:main
+subscriber = hw2_py_package.subscriber:main

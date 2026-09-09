@@ -1,0 +1,4 @@
+source;share/hw2_package/local_setup.bash
+source;share/hw2_package/local_setup.dsv
+source;share/hw2_package/local_setup.sh
+source;share/hw2_package/local_setup.zsh

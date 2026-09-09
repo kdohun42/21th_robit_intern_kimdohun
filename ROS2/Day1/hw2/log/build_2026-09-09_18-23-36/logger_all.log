@@ -1,0 +1,223 @@
+[0.589s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.589s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x725996e88350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x725996e880b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x725996e880b0>>, mixin_verb=('build',))
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.817s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'python_setup_py'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/build) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/build) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/build) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/hw2_package) by extension 'ros'
+[0.993s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp/hw2_package' with type 'ros.ament_cmake' and name 'hw2_package'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/install) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/install) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/install) ignored
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/log) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/log) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(cpp/log) ignored
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['ignore', 'ignore_ament_install']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'ignore_ament_install'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['colcon_pkg']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'colcon_pkg'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['colcon_meta']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'ros'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['cmake', 'python']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'cmake'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'python'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extensions ['python_setup_py']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(python) by extension 'python_setup_py'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(python/build) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(python/build) by extension 'ignore'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(python/build) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extension 'colcon_meta'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extensions ['ros']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(python/hw2_py_package) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'python/hw2_py_package' with type 'ros.ament_python' and name 'hw2_py_package'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(python/install) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(python/install) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(python/install) ignored
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(python/log) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(python/log) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(python/log) ignored
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.160s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[1.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.368s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_target' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'hw2_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.370s] DEBUG:colcon.colcon_core.verb:Building package 'hw2_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package', 'merge_install': False, 'path': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package', 'symlink_install': False, 'test_result_base': None}
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_args' from command line to 'None'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_target' from command line to 'None'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'hw2_py_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.372s] DEBUG:colcon.colcon_core.verb:Building package 'hw2_py_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package', 'merge_install': False, 'path': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package', 'symlink_install': False, 'test_result_base': None}
+[1.373s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package' with build type 'ament_cmake'
+[1.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package'
+[1.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.407s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package' with build type 'ament_python'
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_py_package', 'ament_prefix_path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/ament_prefix_path.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/ament_prefix_path.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/ament_prefix_path.sh'
+[1.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package -- -j16 -l16
+[2.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package'
+[2.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.421s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist, dist_info, easy_install, install_headers, rotate, clean, build_ext, saveopts, develop, bdist_egg, editable_wheel, bdist_rpm, install_scripts, sdist, install_data, install, build_scripts, upload_docs, init_catalog, register, alias, symlink_data, compile_catalog, check, bdist_dumb, install_lib, build_clib, install_egg_info, build_py, build, extract_messages, test, egg_info, setopt, update_catalog, upload
+[6.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_py_package build --build-base /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build install --record /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log --install-scripts $base/lib/hw2_py_package --single-version-externally-managed install_data
+[9.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_py_package build --build-base /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build install --record /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log --install-scripts $base/lib/hw2_py_package --single-version-externally-managed install_data
+[9.343s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package' for CMake module files
+[9.346s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package' for CMake config files
+[9.360s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib'
+[9.366s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/bin'
+[9.366s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/pkgconfig/hw2_py_package.pc'
+[9.369s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages'
+[9.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_py_package', 'pythonpath')
+[9.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/pythonpath.ps1'
+[9.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/pythonpath.dsv'
+[9.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/hook/pythonpath.sh'
+[9.386s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/bin'
+[9.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2_py_package)
+[9.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/package.ps1'
+[9.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/package.dsv'
+[9.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/package.sh'
+[9.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/package.bash'
+[9.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package/package.zsh'
+[9.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/colcon-core/packages/hw2_py_package)
+[77.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package -- -j16 -l16
+[77.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package
+[77.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2_package)
+[77.459s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package' for CMake module files
+[77.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package
+[77.465s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package' for CMake config files
+[77.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_package', 'cmake_prefix_path')
+[77.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.ps1'
+[77.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.dsv'
+[77.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.sh'
+[77.476s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib'
+[77.476s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/bin'
+[77.476s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/pkgconfig/hw2_package.pc'
+[77.478s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/python3.12/site-packages'
+[77.480s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/bin'
+[77.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.ps1'
+[77.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.dsv'
+[77.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.sh'
+[77.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.bash'
+[77.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.zsh'
+[77.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/colcon-core/packages/hw2_package)
+[77.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2_package)
+[77.498s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package' for CMake module files
+[77.500s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package' for CMake config files
+[77.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_package', 'cmake_prefix_path')
+[77.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.ps1'
+[77.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.dsv'
+[77.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/hook/cmake_prefix_path.sh'
+[77.510s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib'
+[77.511s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/bin'
+[77.511s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/pkgconfig/hw2_package.pc'
+[77.512s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/lib/python3.12/site-packages'
+[77.514s] Level 1:colcon.colcon_core.environment:checking '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/bin'
+[77.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.ps1'
+[77.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.dsv'
+[77.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.sh'
+[77.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.bash'
+[77.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/hw2_package/package.zsh'
+[77.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package/share/colcon-core/packages/hw2_package)
+[77.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[77.535s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[77.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[77.537s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[77.565s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[77.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[77.566s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.674s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/local_setup.ps1'
+[77.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/_local_setup_util_ps1.py'
+[77.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/setup.ps1'
+[77.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/local_setup.sh'
+[77.692s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/_local_setup_util_sh.py'
+[77.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/setup.sh'
+[77.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/local_setup.bash'
+[77.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/setup.bash'
+[77.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/local_setup.zsh'
+[77.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/setup.zsh'

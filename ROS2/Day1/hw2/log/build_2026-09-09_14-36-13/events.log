@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (hw2_package) JobQueued: {'identifier': 'hw2_package', 'dependencies': OrderedDict()}
+[0.000664] (hw2_py_package) JobQueued: {'identifier': 'hw2_py_package', 'dependencies': OrderedDict()}
+[0.001257] (hw2_package) JobStarted: {'identifier': 'hw2_package'}
+[0.006570] (hw2_py_package) JobStarted: {'identifier': 'hw2_py_package'}
+[0.010493] (hw2_package) JobProgress: {'identifier': 'hw2_package', 'progress': 'cmake'}
+[0.011152] (hw2_package) Command: {'cmd': ['/usr/bin/cmake', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package', '-DCMAKE_INSTALL_PREFIX=/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_package'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'OLDPWD': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2342', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2295,unix/kdh:/tmp/.ICE-unix/2295', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4565d9a4_e75c_4c8a_8f99_73bb906c8f62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0E0EV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.310', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099977] (-) TimerEvent: {}
+[0.104703] (hw2_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200109] (-) TimerEvent: {}
+[0.200616] (hw2_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.231162] (hw2_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300222] (-) TimerEvent: {}
+[0.396672] (hw2_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400317] (-) TimerEvent: {}
+[0.414834] (hw2_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.415391] (hw2_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.416128] (hw2_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.433522] (hw2_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500457] (-) TimerEvent: {}
+[0.600964] (-) TimerEvent: {}
+[0.623300] (hw2_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.645908] (hw2_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.646413] (hw2_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.647445] (hw2_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.650663] (hw2_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701098] (-) TimerEvent: {}
+[0.774052] (hw2_py_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hw2_py_package', 'build', '--build-base', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build', 'install', '--record', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log', '--install-scripts', '$base/lib/hw2_py_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/python/hw2_py_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'OLDPWD': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2342', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2295,unix/kdh:/tmp/.ICE-unix/2295', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4565d9a4_e75c_4c8a_8f99_73bb906c8f62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0E0EV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.310', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801218] (-) TimerEvent: {}
+[0.901682] (-) TimerEvent: {}
+[0.933617] (hw2_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001926] (-) TimerEvent: {}
+[1.055078] (hw2_py_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.055481] (hw2_py_package) StdoutLine: {'line': b'creating ../../build/hw2_py_package/hw2_py_package.egg-info\n'}
+[1.068045] (hw2_py_package) StdoutLine: {'line': b'writing ../../build/hw2_py_package/hw2_py_package.egg-info/PKG-INFO\n'}
+[1.068494] (hw2_py_package) StdoutLine: {'line': b'writing dependency_links to ../../build/hw2_py_package/hw2_py_package.egg-info/dependency_links.txt\n'}
+[1.068672] (hw2_py_package) StdoutLine: {'line': b'writing entry points to ../../build/hw2_py_package/hw2_py_package.egg-info/entry_points.txt\n'}
+[1.068768] (hw2_py_package) StdoutLine: {'line': b'writing requirements to ../../build/hw2_py_package/hw2_py_package.egg-info/requires.txt\n'}
+[1.068842] (hw2_py_package) StdoutLine: {'line': b'writing top-level names to ../../build/hw2_py_package/hw2_py_package.egg-info/top_level.txt\n'}
+[1.068912] (hw2_py_package) StdoutLine: {'line': b"writing manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'\n"}
+[1.094759] (hw2_py_package) StdoutLine: {'line': b"reading manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'\n"}
+[1.095349] (hw2_py_package) StdoutLine: {'line': b"writing manifest file '../../build/hw2_py_package/hw2_py_package.egg-info/SOURCES.txt'\n"}
+[1.095574] (hw2_py_package) StdoutLine: {'line': b'running build\n'}
+[1.095667] (hw2_py_package) StdoutLine: {'line': b'running build_py\n'}
+[1.095753] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build\n'}
+[1.095832] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build/lib\n'}
+[1.095943] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build/lib/hw2_py_package\n'}
+[1.096022] (hw2_py_package) StdoutLine: {'line': b'copying hw2_py_package/__init__.py -> /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build/lib/hw2_py_package\n'}
+[1.096089] (hw2_py_package) StdoutLine: {'line': b'running install\n'}
+[1.099974] (hw2_package) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.100731] (hw2_py_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.102017] (-) TimerEvent: {}
+[1.114685] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package\n'}
+[1.114977] (hw2_py_package) StdoutLine: {'line': b'copying /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/build/lib/hw2_py_package/__init__.py -> /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package\n'}
+[1.115291] (hw2_py_package) StdoutLine: {'line': b'byte-compiling /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package/__init__.py to __init__.cpython-312.pyc\n'}
+[1.115494] (hw2_py_package) StdoutLine: {'line': b'running install_data\n'}
+[1.115648] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/ament_index\n'}
+[1.115745] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/ament_index/resource_index\n'}
+[1.115821] (hw2_py_package) StdoutLine: {'line': b'creating /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/ament_index/resource_index/packages\n'}
+[1.115890] (hw2_py_package) StdoutLine: {'line': b'copying resource/hw2_py_package -> /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/ament_index/resource_index/packages\n'}
+[1.115970] (hw2_py_package) StdoutLine: {'line': b'copying package.xml -> /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/share/hw2_py_package\n'}
+[1.116036] (hw2_py_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.130617] (hw2_py_package) StdoutLine: {'line': b'Copying ../../build/hw2_py_package/hw2_py_package.egg-info to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/python3.12/site-packages/hw2_py_package-0.0.0-py3.12.egg-info\n'}
+[1.131187] (hw2_py_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.160765] (hw2_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.179358] (hw2_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.201868] (hw2_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202180] (-) TimerEvent: {}
+[1.227563] (hw2_py_package) StdoutLine: {'line': b'Installing publisher script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package\n'}
+[1.228338] (hw2_py_package) StdoutLine: {'line': b'Installing subscriber script to /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/install/hw2_py_package/lib/hw2_py_package\n'}
+[1.228570] (hw2_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.228738] (hw2_py_package) StdoutLine: {'line': b"writing list of installed files to '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_py_package/install.log'\n"}
+[1.255392] (hw2_py_package) CommandEnded: {'returncode': 0}
+[1.269415] (hw2_py_package) JobEnded: {'identifier': 'hw2_py_package', 'rc': 0}
+[1.302422] (-) TimerEvent: {}
+[1.315992] (hw2_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.318375] (hw2_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402702] (-) TimerEvent: {}
+[1.432709] (hw2_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.473334] (hw2_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.502931] (-) TimerEvent: {}
+[1.511396] (hw2_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.603133] (-) TimerEvent: {}
+[1.644750] (hw2_package) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.661689] (hw2_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.703317] (-) TimerEvent: {}
+[1.803779] (-) TimerEvent: {}
+[1.807481] (hw2_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.807834] (hw2_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.807965] (hw2_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.808576] (hw2_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.809712] (hw2_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.809985] (hw2_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.810324] (hw2_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.811605] (hw2_package) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.824274] (hw2_package) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.828920] (hw2_package) StdoutLine: {'line': b'-- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package\n'}
+[1.841678] (hw2_package) CommandEnded: {'returncode': 0}
+[1.844046] (hw2_package) JobProgress: {'identifier': 'hw2_package', 'progress': 'build'}
+[1.844545] (hw2_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', '--', '-j16', '-l16'], 'cwd': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kdh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kdh', 'OLDPWD': '/home/kdh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2342', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kdh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kdh:@/tmp/.ICE-unix/2295,unix/kdh:/tmp/.ICE-unix/2295', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4565d9a4_e75c_4c8a_8f99_73bb906c8f62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0E0EV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.310', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '41', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.903971] (-) TimerEvent: {}
+[1.931738] (hw2_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.932122] (hw2_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[2.004116] (-) TimerEvent: {}
+[2.104597] (-) TimerEvent: {}
+[2.205245] (-) TimerEvent: {}
+[2.305818] (-) TimerEvent: {}
+[2.406330] (-) TimerEvent: {}
+[2.506943] (-) TimerEvent: {}
+[2.607584] (-) TimerEvent: {}
+[2.708129] (-) TimerEvent: {}
+[2.808774] (-) TimerEvent: {}
+[2.909311] (-) TimerEvent: {}
+[3.009921] (-) TimerEvent: {}
+[3.110562] (-) TimerEvent: {}
+[3.211086] (-) TimerEvent: {}
+[3.311659] (-) TimerEvent: {}
+[3.412206] (-) TimerEvent: {}
+[3.512832] (-) TimerEvent: {}
+[3.613361] (-) TimerEvent: {}
+[3.714027] (-) TimerEvent: {}
+[3.814664] (-) TimerEvent: {}
+[3.915208] (-) TimerEvent: {}
+[4.015849] (-) TimerEvent: {}
+[4.110457] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:74:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not a base type for type \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.110956] (hw2_package) StderrLine: {'line': b'   74 |     rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtrpublisher_string_\x1b[m\x1b[K;\n'}
+[4.111093] (hw2_package) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.113050] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:76:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not a base type for type \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.113313] (hw2_package) StderrLine: {'line': b'   76 |     rclcpp::Publisher<std_msgs::msg::Int32>::\x1b[01;31m\x1b[KSharedPtrpublisher_int32_\x1b[m\x1b[K;\n'}
+[4.113447] (hw2_package) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.115933] (-) TimerEvent: {}
+[4.133782] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::\x1b[01;32m\x1b[KMinimalPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.134155] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:20:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_string_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_bool_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.134270] (hw2_package) StderrLine: {'line': b'   20 |         \x1b[01;31m\x1b[Kpublisher_string_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>( "topic_string", 10);\n'}
+[4.134394] (hw2_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.134485] (hw2_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpublisher_bool_\x1b[m\x1b[K\n'}
+[4.146169] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_int32_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_float32_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.146513] (hw2_package) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[Kpublisher_int32_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int32>( "topic_int32", 10);\n'}
+[4.146637] (hw2_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.146766] (hw2_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpublisher_float32_\x1b[m\x1b[K\n'}
+[4.169623] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.169997] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_string_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_bool_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.170120] (hw2_package) StderrLine: {'line': b'   64 |         \x1b[01;31m\x1b[Kpublisher_string_\x1b[m\x1b[K->publish(message);\n'}
+[4.170223] (hw2_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.170319] (hw2_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpublisher_bool_\x1b[m\x1b[K\n'}
+[4.178188] (hw2_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:65:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_int32_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_float32_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.178441] (hw2_package) StderrLine: {'line': b'   65 |         \x1b[01;31m\x1b[Kpublisher_int32_\x1b[m\x1b[K->publish(message2);\n'}
+[4.178546] (hw2_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.178639] (hw2_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpublisher_float32_\x1b[m\x1b[K\n'}
+[4.216158] (-) TimerEvent: {}
+[4.316774] (-) TimerEvent: {}
+[4.417300] (-) TimerEvent: {}
+[4.517940] (-) TimerEvent: {}
+[4.618525] (-) TimerEvent: {}
+[4.719132] (-) TimerEvent: {}
+[4.819734] (-) TimerEvent: {}
+[4.920358] (-) TimerEvent: {}
+[5.020956] (-) TimerEvent: {}
+[5.121557] (-) TimerEvent: {}
+[5.222089] (-) TimerEvent: {}
+[5.322708] (-) TimerEvent: {}
+[5.423327] (-) TimerEvent: {}
+[5.523961] (-) TimerEvent: {}
+[5.624582] (-) TimerEvent: {}
+[5.725128] (-) TimerEvent: {}
+[5.825816] (-) TimerEvent: {}
+[5.926443] (-) TimerEvent: {}
+[6.027174] (-) TimerEvent: {}
+[6.127839] (-) TimerEvent: {}
+[6.228481] (-) TimerEvent: {}
+[6.239007] (hw2_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[6.239648] (hw2_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2\n'}
+[6.239800] (hw2_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.328756] (-) TimerEvent: {}
+[6.429364] (-) TimerEvent: {}
+[6.529994] (-) TimerEvent: {}
+[6.630647] (-) TimerEvent: {}
+[6.731315] (-) TimerEvent: {}
+[6.831963] (-) TimerEvent: {}
+[6.932579] (-) TimerEvent: {}
+[7.033191] (-) TimerEvent: {}
+[7.133823] (-) TimerEvent: {}
+[7.234450] (-) TimerEvent: {}
+[7.334973] (-) TimerEvent: {}
+[7.435500] (-) TimerEvent: {}
+[7.536089] (-) TimerEvent: {}
+[7.636710] (-) TimerEvent: {}
+[7.737258] (-) TimerEvent: {}
+[7.837888] (-) TimerEvent: {}
+[7.938403] (-) TimerEvent: {}
+[8.039027] (-) TimerEvent: {}
+[8.139640] (-) TimerEvent: {}
+[8.240262] (-) TimerEvent: {}
+[8.340843] (-) TimerEvent: {}
+[8.441455] (-) TimerEvent: {}
+[8.542080] (-) TimerEvent: {}
+[8.642682] (-) TimerEvent: {}
+[8.743209] (-) TimerEvent: {}
+[8.843825] (-) TimerEvent: {}
+[8.944423] (-) TimerEvent: {}
+[9.045072] (-) TimerEvent: {}
+[9.145742] (-) TimerEvent: {}
+[9.246304] (-) TimerEvent: {}
+[9.346967] (-) TimerEvent: {}
+[9.447667] (-) TimerEvent: {}
+[9.548269] (-) TimerEvent: {}
+[9.648945] (-) TimerEvent: {}
+[9.749576] (-) TimerEvent: {}
+[9.850130] (-) TimerEvent: {}
+[9.950654] (-) TimerEvent: {}
+[10.051207] (-) TimerEvent: {}
+[10.151890] (-) TimerEvent: {}
+[10.252477] (-) TimerEvent: {}
+[10.353088] (-) TimerEvent: {}
+[10.453690] (-) TimerEvent: {}
+[10.554194] (-) TimerEvent: {}
+[10.654802] (-) TimerEvent: {}
+[10.755391] (-) TimerEvent: {}
+[10.855986] (-) TimerEvent: {}
+[10.956569] (-) TimerEvent: {}
+[11.057164] (-) TimerEvent: {}
+[11.157804] (-) TimerEvent: {}
+[11.258413] (-) TimerEvent: {}
+[11.359044] (-) TimerEvent: {}
+[11.459643] (-) TimerEvent: {}
+[11.560244] (-) TimerEvent: {}
+[11.660831] (-) TimerEvent: {}
+[11.761412] (-) TimerEvent: {}
+[11.861962] (-) TimerEvent: {}
+[11.962554] (-) TimerEvent: {}
+[12.063159] (-) TimerEvent: {}
+[12.163757] (-) TimerEvent: {}
+[12.264239] (-) TimerEvent: {}
+[12.364789] (-) TimerEvent: {}
+[12.465361] (-) TimerEvent: {}
+[12.565939] (-) TimerEvent: {}
+[12.666529] (-) TimerEvent: {}
+[12.767037] (-) TimerEvent: {}
+[12.867659] (-) TimerEvent: {}
+[12.968269] (-) TimerEvent: {}
+[13.068860] (-) TimerEvent: {}
+[13.169344] (-) TimerEvent: {}
+[13.269907] (-) TimerEvent: {}
+[13.370478] (-) TimerEvent: {}
+[13.470939] (-) TimerEvent: {}
+[13.571512] (-) TimerEvent: {}
+[13.672005] (-) TimerEvent: {}
+[13.772609] (-) TimerEvent: {}
+[13.873203] (-) TimerEvent: {}
+[13.973794] (-) TimerEvent: {}
+[14.074303] (-) TimerEvent: {}
+[14.174929] (-) TimerEvent: {}
+[14.275526] (-) TimerEvent: {}
+[14.376078] (-) TimerEvent: {}
+[14.476676] (-) TimerEvent: {}
+[14.577251] (-) TimerEvent: {}
+[14.677821] (-) TimerEvent: {}
+[14.778310] (-) TimerEvent: {}
+[14.878866] (-) TimerEvent: {}
+[14.979372] (-) TimerEvent: {}
+[15.079994] (-) TimerEvent: {}
+[15.180580] (-) TimerEvent: {}
+[15.281085] (-) TimerEvent: {}
+[15.381693] (-) TimerEvent: {}
+[15.482300] (-) TimerEvent: {}
+[15.582856] (-) TimerEvent: {}
+[15.683465] (-) TimerEvent: {}
+[15.784114] (-) TimerEvent: {}
+[15.884715] (-) TimerEvent: {}
+[15.985338] (-) TimerEvent: {}
+[16.085984] (-) TimerEvent: {}
+[16.186605] (-) TimerEvent: {}
+[16.287330] (-) TimerEvent: {}
+[16.388055] (-) TimerEvent: {}
+[16.488807] (-) TimerEvent: {}
+[16.589546] (-) TimerEvent: {}
+[16.668707] (hw2_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[16.689718] (-) TimerEvent: {}
+[16.790340] (-) TimerEvent: {}
+[16.891008] (-) TimerEvent: {}
+[16.991703] (-) TimerEvent: {}
+[17.092335] (-) TimerEvent: {}
+[17.192963] (-) TimerEvent: {}
+[17.252838] (hw2_package) StdoutLine: {'line': b'[ 75%] Built target subscriber\n'}
+[17.255174] (hw2_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.259155] (hw2_package) CommandEnded: {'returncode': 2}
+[17.266102] (hw2_package) JobEnded: {'identifier': 'hw2_package', 'rc': 2}
+[17.277034] (-) EventReactorShutdown: {}

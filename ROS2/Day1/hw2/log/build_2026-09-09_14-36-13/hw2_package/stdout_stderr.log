@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/build/hw2_package
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:74:47:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   74 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtrpublisher_string_[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:76:46:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   76 |     rclcpp::Publisher<std_msgs::msg::Int32>::[01;31m[KSharedPtrpublisher_int32_[m[K;
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+   20 |         [01;31m[Kpublisher_string_[m[K = this->create_publisher<std_msgs::msg::String>( "topic_string", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_bool_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+   22 |         [01;31m[Kpublisher_int32_[m[K = this->create_publisher<std_msgs::msg::Int32>( "topic_int32", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_float32_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_bool_[m[K’?
+   64 |         [01;31m[Kpublisher_string_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_bool_[m[K
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day1/hw2/cpp/hw2_package/src/publisher.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_int32_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_float32_[m[K’?
+   65 |         [01;31m[Kpublisher_int32_[m[K->publish(message2);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_float32_[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable subscriber[0m
+[ 75%] Built target subscriber
+gmake: *** [Makefile:146: all] Error 2
