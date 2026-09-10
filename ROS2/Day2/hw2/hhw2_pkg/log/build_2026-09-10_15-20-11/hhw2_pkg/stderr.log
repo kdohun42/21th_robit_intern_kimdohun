@@ -1,0 +1,8 @@
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::[01;32m[Kon_pushButton_7_clicked[m[K()[m[K’:
+[01m[K/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/src/main_window.cpp:178:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KlineEdit[m[K’
+  178 |         ui->[01;31m[KlineEdit[m[K->text()
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hhw2_pkg.dir/build.make:119: CMakeFiles/hhw2_pkg.dir/src/main_window.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/hhw2_pkg.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

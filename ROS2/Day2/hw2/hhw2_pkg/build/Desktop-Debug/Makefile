@@ -210,6 +210,56 @@ hhw2_pkg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg.dir/build.make CMakeFiles/hhw2_pkg.dir/build
 .PHONY : hhw2_pkg/fast
 
+#=============================================================================
+# Target rules for targets named hhw2_pkg_autogen_timestamp_deps
+
+# Build rule for target.
+hhw2_pkg_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hhw2_pkg_autogen_timestamp_deps
+.PHONY : hhw2_pkg_autogen_timestamp_deps
+
+# fast build rule for target.
+hhw2_pkg_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg_autogen_timestamp_deps.dir/build.make CMakeFiles/hhw2_pkg_autogen_timestamp_deps.dir/build
+.PHONY : hhw2_pkg_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named hhw2_pkg_autogen
+
+# Build rule for target.
+hhw2_pkg_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hhw2_pkg_autogen
+.PHONY : hhw2_pkg_autogen
+
+# fast build rule for target.
+hhw2_pkg_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg_autogen.dir/build.make CMakeFiles/hhw2_pkg_autogen.dir/build
+.PHONY : hhw2_pkg_autogen/fast
+
+hhw2_pkg_autogen/mocs_compilation.o: hhw2_pkg_autogen/mocs_compilation.cpp.o
+.PHONY : hhw2_pkg_autogen/mocs_compilation.o
+
+# target to build an object file
+hhw2_pkg_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg.dir/build.make CMakeFiles/hhw2_pkg.dir/hhw2_pkg_autogen/mocs_compilation.cpp.o
+.PHONY : hhw2_pkg_autogen/mocs_compilation.cpp.o
+
+hhw2_pkg_autogen/mocs_compilation.i: hhw2_pkg_autogen/mocs_compilation.cpp.i
+.PHONY : hhw2_pkg_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+hhw2_pkg_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg.dir/build.make CMakeFiles/hhw2_pkg.dir/hhw2_pkg_autogen/mocs_compilation.cpp.i
+.PHONY : hhw2_pkg_autogen/mocs_compilation.cpp.i
+
+hhw2_pkg_autogen/mocs_compilation.s: hhw2_pkg_autogen/mocs_compilation.cpp.s
+.PHONY : hhw2_pkg_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+hhw2_pkg_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hhw2_pkg.dir/build.make CMakeFiles/hhw2_pkg.dir/hhw2_pkg_autogen/mocs_compilation.cpp.s
+.PHONY : hhw2_pkg_autogen/mocs_compilation.cpp.s
+
 include/hhw2_pkg/moc_main_window.o: include/hhw2_pkg/moc_main_window.cpp.o
 .PHONY : include/hhw2_pkg/moc_main_window.o
 
@@ -343,9 +393,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... hhw2_pkg_autogen"
+	@echo "... hhw2_pkg_autogen_timestamp_deps"
 	@echo "... hhw2_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... hhw2_pkg"
+	@echo "... hhw2_pkg_autogen/mocs_compilation.o"
+	@echo "... hhw2_pkg_autogen/mocs_compilation.i"
+	@echo "... hhw2_pkg_autogen/mocs_compilation.s"
 	@echo "... include/hhw2_pkg/moc_main_window.o"
 	@echo "... include/hhw2_pkg/moc_main_window.i"
 	@echo "... include/hhw2_pkg/moc_main_window.s"

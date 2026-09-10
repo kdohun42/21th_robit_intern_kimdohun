@@ -1,0 +1,24 @@
+[  0%] Built target hhw2_pkg_autogen_timestamp_deps
+[  9%] [34m[1mAutomatic MOC and UIC for target hhw2_pkg[0m
+[  9%] Built target hhw2_pkg_autogen
+[ 18%] [32mBuilding CXX object CMakeFiles/hhw2_pkg.dir/src/qnode.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable hhw2_pkg[0m
+[100%] Built target hhw2_pkg
+-- Install configuration: ""
+-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/lib/hhw2_pkg/hhw2_pkg
+-- Set non-toolchain portion of runtime path of "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/lib/hhw2_pkg/hhw2_pkg" to ""
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/ament_index/resource_index/package_run_dependencies/hhw2_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/ament_index/resource_index/parent_prefix_path/hhw2_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/environment/path.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/environment/path.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/local_setup.bash
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/local_setup.sh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/local_setup.zsh
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/local_setup.dsv
+-- Installing: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/package.dsv
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/ament_index/resource_index/packages/hhw2_pkg
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/cmake/hhw2_pkgConfig.cmake
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/cmake/hhw2_pkgConfig-version.cmake
+-- Up-to-date: /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/install/hhw2_pkg/share/hhw2_pkg/package.xml

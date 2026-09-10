@@ -8,3 +8,5 @@
 /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug/CMakeFiles/install.dir
 /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug/CMakeFiles/install/local.dir
 /home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug/CMakeFiles/hhw2_pkg_autogen_timestamp_deps.dir
+/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug/CMakeFiles/hhw2_pkg_autogen.dir

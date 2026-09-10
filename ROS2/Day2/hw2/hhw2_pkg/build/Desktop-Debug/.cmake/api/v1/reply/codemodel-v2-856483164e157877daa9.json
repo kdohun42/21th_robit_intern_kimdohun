@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-56780c948410efc1bb44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hhw2_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg-Debug-3c1cec34c3abcaec00cc.json",
+					"name" : "hhw2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_autogen-Debug-88d2e2484aa670ab0dd8.json",
+					"name" : "hhw2_pkg_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_autogen_timestamp_deps-Debug-20fd9fe6ccc74e1774b4.json",
+					"name" : "hhw2_pkg_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_uninstall-Debug-fbf1f7cd08b0a301a195.json",
+					"name" : "hhw2_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-a3146090c72e7dcf6d49.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg/build/Desktop-Debug",
+		"source" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

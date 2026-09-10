@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc59e4d9ebcfe42d1b63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hhw2_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg-41b600201a6448370c87.json",
+					"name" : "hhw2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_autogen-027b77063957cf1ea25e.json",
+					"name" : "hhw2_pkg_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_autogen_timestamp_deps-d59164928dc6c18b2af5.json",
+					"name" : "hhw2_pkg_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hhw2_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hhw2_pkg_uninstall-7b1546a2600591cebc0c.json",
+					"name" : "hhw2_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a3146090c72e7dcf6d49.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/build/hhw2_pkg",
+		"source" : "/home/kdh/Desktop/21th_robit_intern_kimdohun/ROS2/Day2/hw2/hhw2_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
