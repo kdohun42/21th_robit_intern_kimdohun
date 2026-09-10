@@ -14,6 +14,7 @@
 #include <QtGui/QIcon>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -37,6 +38,10 @@ public:
     QPushButton *pushButton_5;
     QPushButton *pushButton_6;
     QPushButton *pushButton_7;
+    QLabel *labelVelocity;
+    QLabel *labelCmdVel;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_3;
 
     void setupUi(QMainWindow *MainWindowDesign)
     {
@@ -82,6 +87,18 @@ public:
         pushButton_7 = new QPushButton(centralwidget);
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
         pushButton_7->setGeometry(QRect(350, 600, 88, 26));
+        labelVelocity = new QLabel(centralwidget);
+        labelVelocity->setObjectName(QString::fromUtf8("labelVelocity"));
+        labelVelocity->setGeometry(QRect(370, 430, 231, 91));
+        labelCmdVel = new QLabel(centralwidget);
+        labelCmdVel->setObjectName(QString::fromUtf8("labelCmdVel"));
+        labelCmdVel->setGeometry(QRect(110, 420, 171, 101));
+        lineEdit_2 = new QLineEdit(centralwidget);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setGeometry(QRect(550, 370, 181, 61));
+        lineEdit_3 = new QLineEdit(centralwidget);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setGeometry(QRect(550, 450, 181, 71));
         MainWindowDesign->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindowDesign);
@@ -107,6 +124,8 @@ public:
         pushButton_5->setText(QCoreApplication::translate("MainWindowDesign", "G", nullptr));
         pushButton_6->setText(QCoreApplication::translate("MainWindowDesign", "B", nullptr));
         pushButton_7->setText(QCoreApplication::translate("MainWindowDesign", "RUN", nullptr));
+        labelVelocity->setText(QCoreApplication::translate("MainWindowDesign", "TextLabel", nullptr));
+        labelCmdVel->setText(QCoreApplication::translate("MainWindowDesign", "TextLabel", nullptr));
     } // retranslateUi
 
 };

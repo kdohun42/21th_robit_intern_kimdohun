@@ -72,6 +72,8 @@ private:
 Q_SIGNALS:
 
     void rosShutDown();
+    void velocityUpdated(double linear, double angular);
+
 };
 
 #endif

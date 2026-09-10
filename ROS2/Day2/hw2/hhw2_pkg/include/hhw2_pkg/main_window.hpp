@@ -36,6 +36,8 @@ private slots:
 
     void on_pushButton_7_clicked();
 
+    void updateVelocity( double linear, double angular);
+
 private:
     Ui::MainWindowDesign* ui;
 

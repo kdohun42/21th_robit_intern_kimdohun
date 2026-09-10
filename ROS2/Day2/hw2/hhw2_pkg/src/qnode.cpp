@@ -95,6 +95,11 @@ void QNode::sendVelocity(
 
     // Publish
     cmd_vel_publisher->publish(msg);
+
+    Q_EMIT velocityUpdated(
+        linear,
+        angular
+        );
 }
 
 void QNode::moveFor(

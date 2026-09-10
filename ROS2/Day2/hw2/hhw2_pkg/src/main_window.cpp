@@ -32,7 +32,12 @@ MainWindow::MainWindow(QWidget* parent)
         SLOT(close())
         );
 
-
+    QObject::connect(
+        qnode,
+        SIGNAL(velocityUpdated(double,double)),
+        this,
+        SLOT(updateVelocity(double,double))
+        );
 
 
     // 기본 굵기 = 얇음
@@ -197,4 +202,38 @@ void MainWindow::on_pushButton_7_clicked()
 
         qnode->drawPentagon();
     }
+}
+
+void MainWindow::updateVelocity(
+    double linear,
+    double angular
+    )
+{
+    // 속도만 출력
+    QString velocityText =
+        QString("Linear : %1\nAngular : %2")
+            .arg(linear, 0, 'f', 2)
+            .arg(angular, 0, 'f', 2);
+
+    ui->lineEdit_2->setText(velocityText);
+
+
+    // cmd_vel 메시지 형태로 출력
+    QString cmdVelText =
+        QString(
+            "cmd_vel\n"
+            "linear.x : %1\n"
+            "linear.y : 0.00\n"
+            "linear.z : 0.00\n"
+            "angular.x : 0.00\n"
+            "angular.y : 0.00\n"
+            "angular.z : %2"
+            )
+            .arg(linear, 0, 'f', 2)
+            .arg(angular, 0, 'f', 2);
+
+
+    ui->lineEdit_3->setText(
+        cmdVelText
+        );
 }
