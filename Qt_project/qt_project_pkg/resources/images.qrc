@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Background_Green_TileSet.png</file>
+        <file>images/icon.png</file>
+    </qresource>
+</RCC>
