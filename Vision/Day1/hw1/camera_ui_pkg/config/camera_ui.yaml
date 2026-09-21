@@ -1,3 +1,5 @@
 camera_node:
   ros__parameters:
     camera_index: 0
+    topic: "/camera/image"
+    time: 30

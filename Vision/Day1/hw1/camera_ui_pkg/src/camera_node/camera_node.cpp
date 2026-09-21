@@ -10,14 +10,10 @@ using namespace std;
 CameraNode::CameraNode()
 : Node("camera_node")
 {	
-	/*
-	camera_url_=this->declare_parameter<std::string>("camera_url","");
-	if(camera_url_.empty()){
-		return;
-	}
-	*/
-	camera_index_ = this->declare_parameter<int>("camera_index", 0);
-	cap_.open(camera_index_);
+	//camera_index_ = this->declare_parameter<int>("camera_index", 0);
+	topic= this->declare_parameter<std::string>("topic", "/camera/image");
+    time = this->declare_parameter<int>("timer",33);
+	cap_.open(0);
 
 	if(!cap_.isOpened()){
 		RCLCPP_ERROR(this->get_logger(), "NO CAMERA OPEN");

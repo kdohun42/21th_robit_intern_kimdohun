@@ -23,6 +23,8 @@ private:
     void cameraCallback();
     //string camera_url_; // 카메라 주소 저장할 문자열
     int camera_index_;
+    std::string topic; // 토픽 메세지 타입
+    int time; // 프레임
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_publisher_;
 };
