@@ -1,0 +1,18 @@
+camera_node:
+  ros__parameters:
+    topic: "/camera/image"
+    hz: 30
+
+yolo_node:
+  ros__parameters:
+    topic: "/camera/image"
+
+    class_index:
+      - 0
+      - 67
+
+    class_name:
+      - "person"
+      - "cell phone"
+
+    confidence: 0.8
