@@ -1,15 +1,18 @@
-## 강화학습 교육
-
-프로젝트 구조
+## frozenlake_project
 
 clone
 ```
-
+git clone https://github.com/kdohun42/21th_robit_intern_kimdohun.git
+cd 21th_robit_intern_kimdohun/RL/Day2
 ```
 
-Python 가상환경 설정
+Python 설치가상환경 설정
 ```
 sudo apt install -y python3-venv python3-pip
+```
+
+가상환경 설정
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
