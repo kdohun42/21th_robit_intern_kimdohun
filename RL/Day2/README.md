@@ -6,7 +6,7 @@ git clone https://github.com/kdohun42/21th_robit_intern_kimdohun.git
 cd 21th_robit_intern_kimdohun/RL/Day2
 ```
 
-Python 설치가상환경 설정
+Python 설치
 ```
 sudo apt install -y python3-venv python3-pip
 ```
